@@ -12,3 +12,4 @@ npm-debug.log
 yarn-error.log
 /app/Core/settings.php
 /app/helpers/log.log
+error.log
