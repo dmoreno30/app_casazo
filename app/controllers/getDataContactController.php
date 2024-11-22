@@ -8,9 +8,8 @@ use Leaf\Http\Request;
 use App\Models\Nova;
 
 /**
- * This is the base controller for your Leaf MVC Project.
- * You can initialize packages or define methods here to use
- * them across all your other controllers which extend this one.
+ * Manejo de datos del contacto de Bitrix24
+ * Envio de información a NOVA
  */
 class getDataContactController extends \Leaf\Controller
 {
@@ -35,26 +34,24 @@ class getDataContactController extends \Leaf\Controller
         (int)$cedula = $datos["Cedula"];
         $sucursal = $this->helpers->extractValue($datos["Venta"]);
         $resultNova = $this->Nova->findContact($cedula, $sucursal);
-
+        $this->helpers->LogRegister($resultNova, "resultNova");
         $resultBitrix = $this->ContactBitrix->GETContactBitrix($datos["id"]);
         $data = $this->buildDataFromBitrix($resultBitrix);
-        $data2 = json_encode($data);
-        $this->helpers->LogRegister($data2, "data2");
-        $this->helpers->LogRegister($resultBitrix, "resultBitrix");
 
-
-        if ($resultNova == "") {
+        //el contacto NO existe en nova por lo que puedo crearlo allí
+        if ($resultNova["statusCode"] == 400) {
             $resultCreateContactNova = $this->Nova->CreateContact($data, $sucursal);
-            $this->helpers->LogRegister($resultCreateContactNova, "resultCreateContactNova");
             if ($resultCreateContactNova["status"] !== 200) {
                 $this->ContactBitrix->MessaggeContact((int)$datos["id"], 'Mensaje de Sistema: Error al crear el contacto en NOVA falta el campo');
+            } else {
+                $this->ContactBitrix->MessaggeContact((int)$datos["id"], 'Mensaje de Sistema: Información enviada a NOVA de manera correcta - Contacto creado en Nova');
             }
-
-            //$this->ContactBitrix->MessaggeContact((int)$datos["id"], 'Mensaje de Sistema: Información enviada a NOVA de manera correcta - Contacto creado en Nova');
-        } else {
+            //el contacto SI existe en nova por lo que puedo actualizarlo allí
+        } elseif ($resultNova["statusCode"] == 200) {
             (int)$id = $datos["id"];
-            $this->ContactBitrix->MessaggeContact((int)$id, 'Mensaje de Sistema: Información enviada a NOVA de manera correcta - Cliente existente, información actualizada');
             $result = $this->Nova->updateContact($data, $sucursal);
+            $this->helpers->LogRegister($result, "result actualización");
+            $this->ContactBitrix->MessaggeContact((int)$id, 'Mensaje de Sistema: Información enviada a NOVA de manera correcta - Cliente existente, información actualizada');
         }
     }
 
@@ -73,8 +70,7 @@ class getDataContactController extends \Leaf\Controller
             "UF_CRM_1730155105",
             "UF_CRM_1730155278"
         ]);
-        $receptor = ($resultBitrix["UF_CRM_1729999951"] == 1) ? true : false;
-        $this->helpers->LogRegister($direccionPri, "direccionPri");
+
         return [
             [
                 "codigoRefCliente" => $resultBitrix["ID"],
