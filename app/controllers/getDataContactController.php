@@ -32,31 +32,29 @@ class getDataContactController extends \Leaf\Controller
         $datos = $this->HttpRequest->body("Cedula");
 
         $resultBitrix = $this->ContactBitrix->GETContactBitrix($datos["id"]);
-        $this->helpers->LogRegister($resultBitrix, "resultBitrix");
+        $this->helpers->LogRegister($resultBitrix, "resultBitrix2");
 
         $sucursal = $this->helpers->extractValue($datos["Venta"]);
         $cedula = $resultBitrix["UF_CRM_66EED02625C8F"];
 
-        print_r($datos);
-
         $resultNova = $this->Nova->findContact((string)$cedula, $sucursal);
+        $this->helpers->LogRegister($resultNova, "resultNova");
 
         $data = $this->buildDataFromBitrix($resultBitrix);
         $data2 = json_encode($data);
-        $this->helpers->LogRegister($data, "data");
-        print_r($data2);
         $this->helpers->LogRegister($data2, "data2");
+        print_r($data2);
 
         //el contacto NO existe en nova por lo que puedo crearlo allí
         if ($resultNova["statusCode"] == 400) {
             $resultCreateContactNova = $this->Nova->CreateContact($data, $sucursal);
-            print_r($resultCreateContactNova);
             $this->helpers->LogRegister($resultCreateContactNova, "resultCreateContactNova");
-
-            if (!isset($resultCreateContactNova["status"]) || $resultCreateContactNova["status"] !== 200) {
-                $this->ContactBitrix->MessaggeContact((int)$datos["id"], 'Mensaje de Sistema: Error al crear el contacto en NOVA falta el campo');
-            } else {
+            if ($resultCreateContactNova["status"] == 200) {
                 $this->ContactBitrix->MessaggeContact((int)$datos["id"], 'Mensaje de Sistema: Información enviada a NOVA de manera correcta - Contacto creado en Nova');
+            }
+            if (!isset($resultCreateContactNova["status"]) || $resultCreateContactNova["status"] !== 200) {
+                $this->ContactBitrix->MessaggeContact((int)$datos["id"], 'Mensaje de Sistema: Error al crear el contacto en NOVA falta un campo');
+                exit();
             }
         }
         //el contacto SI existe en nova por lo que puedo actualizarlo allí
@@ -77,6 +75,7 @@ class getDataContactController extends \Leaf\Controller
             "UF_CRM_66EED026C5E1E"
         ]);
 
+
         $direccionMedico = $this->getDireccion($resultBitrix, [
             "UF_CRM_1730153280",
             "UF_CRM_1730153445",
@@ -89,53 +88,49 @@ class getDataContactController extends \Leaf\Controller
             "UF_CRM_1732329352",
             "UF_CRM_1732329400"
         ]);
-        $receptor = ($resultBitrix["UF_CRM_1729999951"] == 1)  ? true : false;
-
-
+        $receptor = ($resultBitrix["UF_CRM_1733280870"] == "Paciente")  ? true : false;
 
         $nombreContacto = $resultBitrix["UF_CRM_1726926647122"] . $resultBitrix["UF_CRM_1726926654666"];
-
-
-
 
         return [
             [
                 "codigoRefCliente" => $resultBitrix["ID"],
-                "tipoCliente" => $resultBitrix["TYPE_ID"] == 1 ? "Medico" : "Paciente",
-                "tipoCedula" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_66F44E986011B"], "UF_CRM_66F44E986011B")),
-                "cedula" => $resultBitrix["UF_CRM_66EED02625C8F"],
-                "nombreCompleto" => $resultBitrix["NAME"] . " " . $resultBitrix["LAST_NAME"],
+                "tipoCliente" => (string)$resultBitrix["TYPE_ID"] == 1 ? "Médico" : "Paciente",
                 "telefono" => $resultBitrix["PHONE"][0]["VALUE"],
                 "correo" => $resultBitrix["EMAIL"][0]["VALUE"],
-                "codigoDireccionPri" => $direccionPri['codigo'],
                 "direccionDetalladaPri" => $resultBitrix["UF_CRM_66EED027B1CF0"],
-                "codigoSucursal" => (int)$this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_66F44E9847FD2"], "UF_CRM_66F44E9847FD2")),
-                "diasCreditoMax" => (int)$this->helpers->FieldsValue($resultBitrix["UF_CRM_66EED0266C053"], "UF_CRM_66EED0266C053"),
-                "montoCreditoMax" => 30,
-                "montoCreditoMin" => 0,
-                "codigoCentroCosto" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1729952491"], "UF_CRM_1729952491")),
-                "estado" => "ACT",
-                "codigoFormaPago" => (int)$this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1729952639"], "UF_CRM_1729952639")),
-                "contacto" => [
-                    [
-                        "tipoContacto" => $this->helpers->FieldsValue($resultBitrix["UF_CRM_1732333689"], "UF_CRM_1732333689"),
-                        "nombreContacto" => (string)$nombreContacto,
-                        "tipoCedulaContacto" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1726926586710"], "UF_CRM_1726926586710")),
-                        "cedulaContacto" => $resultBitrix["UF_CRM_1726926537782"],
-                        "codDireccionContacto" => $direccionMedico['codigo'],
-                        "ocupacionContacto" => $resultBitrix["UF_CRM_1729988613"],
-                        "comentarioContacto" => $resultBitrix["UF_CRM_1726926698338"],
-                        "contactoPrioridad" => false
-                    ]
-                ],
+                "codigoSucursal" => (int)$this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_66F44E9847FD2"], "UF_CRM_66F44E9847FD2", "contact")),
+                "codigoCentroCosto" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1729952491"], "UF_CRM_1729952491", "contact")),
+                "diasCreditoMax" => (int)$this->helpers->FieldsValue($resultBitrix["UF_CRM_66EED0266C053"], "UF_CRM_66EED0266C053", "contact"),
                 "receptorFEPrincipal" => (bool)$receptor,
                 "codigoPartidaImp" => "1",
-                "tipoCedulaReceptor" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1729989153"], "UF_CRM_1729989153")),
-                "cedulaReceptor" => $resultBitrix["UF_CRM_1729989673"],
-                "nombreCompletoReceptor" => $resultBitrix["UF_CRM_1729989779"],
-                "correoReceptor" => $resultBitrix["UF_CRM_1729989815"],
-                "direccionDetalladaSec" => $resultBitrix["UF_CRM_1732245140"],
+                "montoCreditoMax" => 30,
+                "montoCreditoMin" => 0,
+                "codigoFormaPago" => (int)$this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1729952639"], "UF_CRM_1729952639", "contact")),
                 "codigoDireccionSec" => $direccionSecundaria['codigo'],
+                "direccionDetalladaSec" => $resultBitrix["UF_CRM_1732245140"],
+                "estado" => "ACT",
+                "tipoCedulaReceptor" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1726926586710"], "UF_CRM_1726926586710", "contact")),
+                "cedulaReceptor" => $resultBitrix["UF_CRM_1726926537782"],
+                "correoReceptor" => $resultBitrix["UF_CRM_1729989815"],
+                "nombreCompletoReceptor" => (string)$nombreContacto,
+                "contacto" => [
+                    [
+                        "tipoContacto" => (string)$this->helpers->FieldsValue($resultBitrix["UF_CRM_1732333689"], "UF_CRM_1732333689", "contact"),
+                        "ocupacion" => $resultBitrix["UF_CRM_1729988613"],
+                        "prioridadEmergencia" => true,
+                        "codigoTipo" => 0,
+                        "tipoCedula" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1726926586710"], "UF_CRM_1726926586710", "contact")),
+                        "cedula" => $resultBitrix["UF_CRM_1726926537782"],
+                        "nombreCompleto" => (string)$nombreContacto,
+                        "codigoDireccionPri" => $direccionMedico['codigo'],
+                        "anotaciones" => $resultBitrix["UF_CRM_1726926698338"],
+                    ]
+                ],
+                "tipoCedula" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_66F44E986011B"], "UF_CRM_66F44E986011B", "contact")),
+                "cedula" => $resultBitrix["UF_CRM_66EED02625C8F"],
+                "nombreCompleto" => $resultBitrix["NAME"] . " " . $resultBitrix["LAST_NAME"],
+                "codigoDireccionPri" => $direccionPri['codigo'],
                 "anotaciones" => $resultBitrix["UF_CRM_1729989843"]
             ]
         ];
@@ -145,7 +140,8 @@ class getDataContactController extends \Leaf\Controller
     {
 
         $values = array_map(function ($field) use ($resultBitrix) {
-            return $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix[$field], $field));
+            $reto = $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix[$field], $field, "contact"));
+            return $reto;
         }, $fields);
 
         return [

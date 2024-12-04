@@ -37,11 +37,11 @@ class Auxhelpers
     {
         error_log("[" . date("Y-m-d H:i:s") . "] " . __FUNCTION__ . ": " . $message, 3, "error.log");
     }
-    public function FieldsValue($FIELD_ID, string $FIELD_NAME)
+    public function FieldsValue($FIELD_ID, string $FIELD_NAME, $entity)
     {
 
         $this->Bitrix = new ContactBitrix();
-        $fielData = $this->Bitrix->dataFields($FIELD_NAME);
+        $fielData = $this->Bitrix->dataFields($FIELD_NAME, $entity);
         foreach ($fielData as $data) {
             if ($data["ID"] == $FIELD_ID) {
                 return $data["VALUE"];

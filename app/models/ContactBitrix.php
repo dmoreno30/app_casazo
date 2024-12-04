@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Core\crest;
+use App\helpers\Auxhelpers;
 
 /**
  * Base Contact Bitrix
@@ -13,7 +14,7 @@ use App\Core\crest;
 class ContactBitrix
 {
 
-
+    public $helpers;
     public function GETContactBitrix($id)
     {
 
@@ -28,21 +29,23 @@ class ContactBitrix
 
         crest::call("crm." . $entity . "." . $method, $arr);
     }
-    public function dataFields(string $FIELD_NAME)
+    public function dataFields(string $FIELD_NAME, $entity)
     {
+        $this->helpers = new Auxhelpers();
 
-        $result = CRest::call(
-            "crm.contact.userfield.list",
+        $result = crest::call(
+            "crm." . $entity . ".userfield.list",
             [
                 "FILTER[FIELD_NAME]" => $FIELD_NAME,
             ]
         );
+
         return $result["result"][0]["LIST"];
     }
 
     public function MessaggeContact($id, $mensaje)
     {
-        $result = CRest::call(
+        $result = crest::call(
             'crm.timeline.comment.add',
             [
                 'fields' => [
