@@ -60,7 +60,7 @@ class Nova
         ]);
 
         $response = curl_exec($ch);
-
+        $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         if (curl_errno($ch)) {
             $error_msg = curl_error($ch);
             curl_close($ch);
@@ -71,7 +71,10 @@ class Nova
 
         $responseData = json_decode($response, associative: true);
 
-        return $responseData;
+        return [
+            "Respuesta" => $responseData,
+            "statusCode" => $statusCode
+        ];
     }
     private function fetchToken($companyCode): string|array
     {

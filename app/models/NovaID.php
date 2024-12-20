@@ -11,7 +11,7 @@ namespace App\Models;
 class NovaID
 {
     private $login = 'api/Auth/login';
-    private $EnpointCustomer = "/api/quote";
+    private $EnpointQuote = "/api/quote";
 
     private function CurlPost($arr, $apiUrl, $token, $method)
     {
@@ -111,27 +111,46 @@ class NovaID
         $responseData = json_decode($response, true);
         return $responseData["token"];
     }
+    private function getLogin($companyCode)
+    {
+        $data = [
+            "authByCompanyTIN" => false,
+            "companyCode" => $companyCode,
+            "username" => "admin",
+            "password" => "Admin1234",
+            "audience" => "Bitrix24"
+        ];
+    }
     public function findQuote($id, $companyCode)
     {
 
         $token = $this->fetchToken($companyCode);
 
-        $url = getenv('URL_CUSTOMER') . $this->EnpointCustomer . "/?CodRefExterna=" . $id;
+        $url = getenv('URL_QUOTE') . $this->EnpointQuote . "?CodRefExterna=" . $id;
+
         $result = $this->CurlGet($url,  $token);
         return $result;
     }
     public function CreateQuoteID($data, $companyCode)
     {
         $token = $this->fetchToken($companyCode);
-        $url = getenv('URL_CUSTOMER') . $this->EnpointCustomer;
+        $url = getenv('URL_QUOTE') . $this->EnpointQuote;
         $result = $this->CurlPost($data, $url, $token, "POST");
         return $result;
     }
+    public function UpdateQuoteID($data, $companyCode)
+    {
+        $token = $this->fetchToken($companyCode);
+        $url = getenv('URL_QUOTE') . $this->EnpointQuote;
+        $result = $this->CurlPost($data, $url, $token, "POST");
+        return $result;
+    }
+
     public function updateContact($data, $companyCode)
     {
 
         $token = $this->fetchToken($companyCode);
-        $url = getenv('URL_CUSTOMER') . $this->EnpointCustomer;
+        $url = getenv('URL_QUOTE') . $this->EnpointQuote;
         $result = $this->CurlPost($data, $url, $token, "PUT");
         return $result;
     }

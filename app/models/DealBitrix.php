@@ -26,7 +26,7 @@ class DealBitrix
     {
 
         $result = crest::call("crm.currency.get", [
-            "id" => $IDcurrency
+            "id" => "$IDcurrency"
         ]);
         return $result["result"];
     }
@@ -43,6 +43,17 @@ class DealBitrix
         return $result["result"][0]["LIST"];
     }
 
+    public function DealSetProducts(string $id)
+    {
+
+        $result = CRest::call(
+            "crm.deal.productrows.get",
+            [
+                "id" => $id,
+            ]
+        );
+        return $result;
+    }
     public function MessaggeContact($id, $mensaje)
     {
         $result = CRest::call(
