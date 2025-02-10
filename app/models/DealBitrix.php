@@ -54,14 +54,14 @@ class DealBitrix
         );
         return $result;
     }
-    public function MessaggeContact($id, $mensaje)
+    public function MessaggeDeal($id, $mensaje)
     {
         $result = CRest::call(
             'crm.timeline.comment.add',
             [
                 'fields' => [
                     'ENTITY_ID' => $id,
-                    'ENTITY_TYPE' => 'contact',
+                    'ENTITY_TYPE' => 'deal',
                     'COMMENT' => $mensaje,
                     'AUTHOR_ID' => 5
                 ]

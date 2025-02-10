@@ -10,29 +10,32 @@ use App\Models\DealBitrix;
 use App\Models\ContactBitrix;
 use App\helpers\Auxhelpers;
 use Leaf\Http\Request;
-use App\Models\NovaID;
+use App\Models\NovaMD;
 use App\Models\UserBitrix;
+use App\Controllers\GetProductsBitrix;
 
 /**
  * Creación de cotizaciones en NOVA desde master Dental.
  */
-class getDataDealIDController extends \Leaf\Controller
+class getDataDealMDController extends \Leaf\Controller
 {
     public $DealBitrix;
     public $ContactBitrix;
     public $UserBitrix;
     public $helpers;
     public $HttpRequest;
-    public $NovaID;
+    public $NovaMD;
+    public $infoProduct;
     public function __construct()
     {
         parent::__construct();
         $this->DealBitrix = new DealBitrix();
         $this->ContactBitrix = new ContactBitrix();
         $this->UserBitrix = new UserBitrix();
-        $this->NovaID = new NovaID();
+        $this->NovaMD = new NovaMD();
         $this->helpers = new Auxhelpers();
         $this->HttpRequest = new Request;
+        $this->infoProduct = new GetProductsBitrix();
     }
 
 
@@ -41,25 +44,23 @@ class getDataDealIDController extends \Leaf\Controller
         $datos = $this->HttpRequest->body();
         //$this->helpers->LogRegister($datos, "datos");
 
-        $resultBitrix = $this->DealBitrix->GETDealtBitrix($datos["id"]);
-        //$this->helpers->LogRegister($resultBitrix, "resultBitrix");
+        $resultBitrixMD = $this->DealBitrix->GETDealtBitrix($datos["id"]);
+        //$this->helpers->LogRegister($resultBitrixMD, "resultBitrix");
 
         //$sucursal = $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_66F44E986A5B6"], "UF_CRM_66F44E986A5B6"));
-        $companyCode = $this->helpers->extractValue($datos["Pipeline"]);
-        print_r($datos);
-
-        /* $resultNova = $this->NovaID->findQuote($datos["id"], $companyCode);
+        $companyCode = $this->helpers->extractValue($datos["pipeline"]);
+        $this->DealBitrix->MessaggeDeal($datos["id"], "Información enviada a nova, espere...");
+        /* $resultNova = $this->NovaMD->findQuote($datos["id"], $companyCode);
         $this->helpers->LogRegister($resultNova, "resultNova"); */
 
-        $data = $this->buildDataFromBitrix($resultBitrix);
+        $data = $this->buildDataFromBitrix($resultBitrixMD);
         $data2 = json_encode($data);
         $this->helpers->LogRegister($data, "data");
-        print_r($data2);
         $this->helpers->LogRegister($data2, "data2");
 
         //La cotización no existe
         /* if ($resultNova["statusCode"] == 400) {
-            $resultCreateQuoteNova = $this->NovaID->CreateQuoteID($data, $companyCode);
+            $resultCreateQuoteNova = $this->NovaMD->CreateQuoteMD($data, $companyCode);
             $this->helpers->LogRegister($resultCreateQuoteNova, "resultCreateQuoteNova");
 
             if (!isset($resultCreateQuoteNova["status"]) || $resultCreateQuoteNova["status"] !== 200) {
@@ -84,7 +85,7 @@ class getDataDealIDController extends \Leaf\Controller
 
         $montoTasaCambio = $this->DealBitrix->GETCurrencyID($resultBitrix["CURRENCY_ID"]);
         $resultContact = $this->ContactBitrix->GETContactBitrix($resultBitrix["CONTACT_ID"]);
-        $this->helpers->LogRegister($resultContact, "resultContact");
+        //$this->helpers->LogRegister($resultContact, "resultContact");
 
 
         $codigoCentroCosto = $this->helpers->extractValue($this->helpers->FieldsValue($resultContact["UF_CRM_1729952491"], "UF_CRM_1729952491", "contact"));
@@ -117,10 +118,7 @@ class getDataDealIDController extends \Leaf\Controller
                 "impuesto" => 0.00,
                 "otrosCargos" => 0.00,
                 "totalDocumento" => (float)$this->helpers->extractMonto($resultBitrix["OPPORTUNITY"]),
-                "items" =>
-                [
-                    $products,
-                ]
+                "items" => $products,
             ]
         ];
     }
@@ -141,16 +139,19 @@ class getDataDealIDController extends \Leaf\Controller
     private function getProductsDeal($id)
     {
         $resultDealProductos = $this->DealBitrix->DealSetProducts($id);
+        $this->helpers->LogRegister($resultDealProductos);
         $items = [];
+        $numerodeLinea = 1;
 
         foreach ($resultDealProductos["result"] as $product) {
+            $resultInfoStore = $this->infoProduct->getStore($product["STORE_ID"]);
             // Mapeamos los datos del producto a la estructura que espera el ERP
             $items[] = [
-                "numeroLinea" => 1,  // Incrementamos el número de línea
-                "codigoBodega" => "B01",         // Aquí puedes poner el código de bodega adecuado
-                "tipoCodigo" => "sistema / externo",  // El tipo de código puede ser siempre el mismo o variar
-                "codigoItem" => (int)$product["PRODUCT_ID"],  // El código del producto
-                "descripción" => $product["PRODUCT_NAME"],  // Nombre del producto
+                "numeroLinea" => $numerodeLinea,  // Incrementamos el número de línea
+                "codigoBodega" => (string)$resultInfoStore,         // Aquí puedes poner el código de bodega adecuado
+                "tipoCodigo" => "externo",  // El tipo de código puede ser siempre el mismo o variar
+                "codigoItem" => (string)$product["PRODUCT_ID"],  // El código del producto
+                "descripcion" => $product["PRODUCT_NAME"],  // Nombre del producto
                 "unidadPrincipal" => $product["MEASURE_NAME"],  // Unidad de medida
                 "cantidad" => (float)$product["QUANTITY"],  // Cantidad del producto
                 "precio" => (float)$product["PRICE"],  // Precio del producto
@@ -158,6 +159,8 @@ class getDataDealIDController extends \Leaf\Controller
                 "impuesto" => (float)$product["TAX_RATE"],  // Impuesto, si lo tienes calculado
                 "totalLinea" => (float)$product["PRICE"] * (float)$product["QUANTITY"] - (float)$product["DISCOUNT_SUM"]  // Total por línea considerando cantidad y descuento
             ];
+
+            $numerodeLinea++;
         }
 
         return $items;

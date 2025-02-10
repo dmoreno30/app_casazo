@@ -7,4 +7,4 @@ app()->get('/', function () {
 app()->post('/getDataEvent', 'getDataEventController@index');
 app()->post('/getDataContact', 'getDataContactController@index');
 app()->post('/getDealID', 'getDataDealIDController@index');
-//app()->post('/getDealMD', 'getDataDealMDController@index');
+app()->post('/getDealMD', 'getDataDealMDController@index');
