@@ -10,7 +10,3 @@ vendor
 node_modules
 npm-debug.log
 yarn-error.log
-/app/Core/settings.php
-/app/helpers/log.log
-/app/Core/settings.php
-error.log

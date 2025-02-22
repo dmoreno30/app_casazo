@@ -3,15 +3,15 @@
 namespace App\Models;
 
 /**
- * Nova Model
+ * Nova Model Quote
  * ---
  * The Nova model provides a space to set atrributes
  * that are common to all models
  */
-class Nova
+class NovaQuote
 {
     private $login = 'api/Auth/login';
-    private $EnpointCustomer = "api/customer";
+    private $EnpointQuote = "api/quote";
 
     private function CurlPost($arr, $apiUrl, $token, $method)
     {
@@ -60,7 +60,7 @@ class Nova
         ]);
 
         $response = curl_exec($ch);
-        $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
         if (curl_errno($ch)) {
             $error_msg = curl_error($ch);
             curl_close($ch);
@@ -71,12 +71,9 @@ class Nova
 
         $responseData = json_decode($response, associative: true);
 
-        return [
-            "Respuesta" => $responseData,
-            "statusCode" => $statusCode
-        ];
+        return $responseData;
     }
-    public function fetchToken($companyCode): string|array
+    private function fetchToken($companyCode): string|array
     {
 
         switch ($companyCode) {
@@ -144,8 +141,8 @@ class Nova
                 ];
                 break;
         }
-
         $ch = curl_init();
+
         $url = getenv('URL_TOKEN') . $this->login;
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -172,27 +169,28 @@ class Nova
         $responseData = json_decode($response, true);
         return $responseData["token"];
     }
-    public function findContact($Cedula, $companyCode)
+
+    public function findQuote($id, $companyCode)
     {
 
         $token = $this->fetchToken($companyCode);
 
-        $url = getenv('URL_CUSTOMER') . $this->EnpointCustomer . "/?Cedula=" . $Cedula;
+        $url = getenv('URL_QUOTE') . $this->EnpointQuote . "?codRefExterna=" . $id;
+
         $result = $this->CurlGet($url,  $token);
         return $result;
     }
-    public function CreateContact($data, $companyCode)
+    public function CreateQuoteMD($data, $companyCode)
     {
         $token = $this->fetchToken($companyCode);
-        $url = getenv('URL_CUSTOMER') . $this->EnpointCustomer;
+        $url = getenv('URL_QUOTE') . $this->EnpointQuote;
         $result = $this->CurlPost($data, $url, $token, "POST");
         return $result;
     }
-    public function updateContact($data, $companyCode, $id)
+    public function UpdateQuoteMD($data, $companyCode, $id)
     {
-
         $token = $this->fetchToken($companyCode);
-        $url = getenv('URL_CUSTOMER') . $this->EnpointCustomer . "/" . $id;
+        $url = getenv('URL_QUOTE') . $this->EnpointQuote . "/" . $id;
         $result = $this->CurlPost($data, $url, $token, "PUT");
         return $result;
     }

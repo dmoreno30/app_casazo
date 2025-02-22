@@ -30,16 +30,18 @@ class getDataContactController extends \Leaf\Controller
     public function index()
     {
         $datos = $this->HttpRequest->body("Cedula");
+        (int)$id = $datos["id"];
         $resultBitrix = $this->ContactBitrix->GETContactBitrix($datos["id"]);
-        $this->ContactBitrix->MessaggeContact((int)$datos["id"], 'Mensaje de Sistema: Información enviada a NOVA espere...');
-        //$this->helpers->LogRegister($resultBitrix, "resultBitrix2");
+        $this->ContactBitrix->MessaggeContact((int)$id, 'Mensaje de Sistema: Información enviada a NOVA espere...');
+
+        //$this->helpers->LogRegister($resultBitrix, "data contacto");
 
         $sucursal = $this->helpers->extractValue($datos["Venta"]);
+
+
         $cedula = $resultBitrix["UF_CRM_66EED02625C8F"];
-
-
-
         $resultNova = $this->Nova->findContact((string)$cedula, $sucursal);
+
         //$this->helpers->LogRegister($resultNova, "resultNova");
 
         /* $data2 = json_encode($data);
@@ -47,24 +49,28 @@ class getDataContactController extends \Leaf\Controller
 
         //el contacto SI existe en nova por lo que puedo actualizarlo allí
 
-        (int)$id = $datos["id"];
         switch ($resultNova["statusCode"]) {
             case '200':
                 $data = $this->buildDataFromBitrixUpdate($resultBitrix, $id);
                 $resultUpdate = $this->Nova->updateContact($data, $sucursal, $id);
-                $this->helpers->LogRegister($resultUpdate, "actualizado");
+                $this->ContactBitrix->MessaggeContact((int)$id, "Mensaje de Sistema: Cliente existente - Enviando información para actualizar");
+                $this->helpers->LogRegister($resultUpdate, "actualizado en nova");
+                $data2 = json_encode($data);
+                $this->helpers->LogRegister($data2, "data2 Json update");
                 switch ($resultUpdate["statusCode"]) {
                     case 200:
-                        $this->ContactBitrix->MessaggeContact((int)$id, "Mensaje de Sistema: Información enviada a NOVA - {$resultUpdate['message']}");
+                        $this->ContactBitrix->MessaggeContact((int)$id, "Mensaje de Sistema: {$resultUpdate['message']}");
                         break;
                 }
                 break;
             case '400':
                 $data = $this->buildDataFromBitrix($resultBitrix, $id);
                 $resultCreateContactNova = $this->Nova->CreateContact($data, $sucursal);
-
+                $data2 = json_encode($data);
+                $this->helpers->LogRegister($data2, "data2");
+                $this->helpers->LogRegister($resultCreateContactNova, "resultCreateContactNova");
                 if ($resultCreateContactNova["statusCode"] == 200) {
-                    $this->ContactBitrix->MessaggeContact((int)$id, 'Mensaje de Sistema: Información enviada a NOVA - Contacto creado en NOVA');
+                    $this->ContactBitrix->MessaggeContact((int)$id, "Mensaje de Sistema: {$resultCreateContactNova['message']} ");
                 }
                 if (!isset($resultCreateContactNova["statusCode"]) || $resultCreateContactNova["statusCode"] !== 200) {
                     $this->ContactBitrix->MessaggeContact((int)$id, 'Mensaje de Sistema: Error al crear el contacto en NOVA falta un campo');
@@ -94,9 +100,8 @@ class getDataContactController extends \Leaf\Controller
 
         //dirección del contacto segundaria
 
-        $TerceroBitrix = $this->ContactBitrix->GETContactBitrix($id);
-        if ($TerceroBitrix["UF_CRM_1738078190"] !== "") {
-            $resultBitrixTercero = $this->ContactBitrix->GETContactBitrix($TerceroBitrix["UF_CRM_1738078190"]);
+        if ($resultBitrix["UF_CRM_1738078190"] !== "") {
+            $resultBitrixTercero = $this->ContactBitrix->GETContactBitrix($resultBitrix["UF_CRM_1738078190"]);
         }
         $direccionSecundaria = $this->getDireccion($resultBitrixTercero, [
             "UF_CRM_1732329275",
@@ -132,7 +137,7 @@ class getDataContactController extends \Leaf\Controller
                     "montoCreditoMin" => 0,
                     "codigoFormaPago" => (int)$this->helpers->extractValue($this->helpers->FieldsValue($resultBitrix["UF_CRM_1729952639"], "UF_CRM_1729952639", "contact")),
                     "codigoDireccionSec" => $direccionSecundaria['codigo'],
-                    "direccionDetalladaSec" => $resultBitrixTercero["UF_CRM_1732245140"],
+                    "direccionDetalladaSec" => ($resultBitrixTercero["UF_CRM_1732245140"]) ? $resultBitrixTercero["UF_CRM_1732245140"] : '',
                     "estado" => "ACT",
                     "tipoCedulaReceptor" => $this->helpers->extractValue($this->helpers->FieldsValue($resultBitrixTercero["UF_CRM_66F44E986011B"], "UF_CRM_66F44E986011B", "contact")),
                     "cedulaReceptor" => $resultBitrixTercero["UF_CRM_66EED02625C8F"],

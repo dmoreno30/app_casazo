@@ -71,4 +71,27 @@ class ProductBitrix24
         );
         return $result["result"];
     }
+    public function getParent($idProduct)
+    {
+        try {
+            $result = CRest::call(
+                "catalog.product.get",
+                [
+                    "id" => $idProduct,
+                ]
+            );
+
+            // Verifica si la clave ["result"]["storeProducts"]["storeId"] existe antes de acceder
+            if (isset($result["result"]["product"]["parentId"])) {
+                return $result["result"]["product"]["parentId"]["value"];
+            } else {
+                // Si no existe, puedes retornar un valor por defecto o manejar el error de otra manera
+                return 0; // O algún valor predeterminado adecuado
+            }
+        } catch (\Throwable $th) {
+            // En caso de un error, puedes manejarlo apropiadamente
+            $this->helpers->LogRegister($th->getMessage(), "error");
+            return null; // O algún valor predeterminado en caso de error
+        }
+    }
 }
