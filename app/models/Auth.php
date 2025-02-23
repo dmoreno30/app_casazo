@@ -35,13 +35,71 @@ class Auth
     private function GetToken($companyCode): string|array
     {
 
-        $data = [
-            "authByCompanyTIN" => false,
-            "companyCode" => $companyCode,
-            "username" => "admin",
-            "password" => "Admin1234",
-            "audience" => "Bitrix24"
-        ];
+        switch ($companyCode) {
+            case 58:
+                $data = [
+                    "authByCompanyTIN" => false,
+                    "companyCode" => $companyCode,
+                    "username" => "admin",
+                    "password" => "Admin1234",
+                    "audience" => "Bitrix24"
+                ];
+                break;
+            case 59:
+                $data = [
+                    "authByCompanyTIN" => false,
+                    "companyCode" => $companyCode,
+                    "username" => "api",
+                    "password" => "Api123456",
+                    "audience" => "Bitrix24"
+                ];
+                break;
+            case 60:
+                $data = [
+                    "authByCompanyTIN" => false,
+                    "companyCode" => $companyCode,
+                    "username" => "api",
+                    "password" => "Api123456",
+                    "audience" => "Bitrix24"
+                ];
+                break;
+            case 61:
+                $data = [
+                    "authByCompanyTIN" => false,
+                    "companyCode" => $companyCode,
+                    "username" => "api",
+                    "password" => "Api123456",
+                    "audience" => "Bitrix24"
+                ];
+                break;
+            case 62:
+                $data = [
+                    "authByCompanyTIN" => false,
+                    "companyCode" => $companyCode,
+                    "username" => "api",
+                    "password" => "Api123456",
+                    "audience" => "Bitrix24"
+                ];
+                break;
+            case 63:
+                $data = [
+                    "authByCompanyTIN" => false,
+                    "companyCode" => $companyCode,
+                    "username" => "api",
+                    "password" => "Api123456",
+                    "audience" => "Bitrix24"
+                ];
+                break;
+            case 64:
+                $data = [
+                    "authByCompanyTIN" => false,
+                    "companyCode" => $companyCode,
+                    "username" => "api",
+                    "password" => "Api123456",
+                    "audience" => "Bitrix24"
+                ];
+                break;
+        }
         $apiUrl = getenv('URL_TOKEN') . getenv('ENDPOINT_LOGIN');
         $response = $this->fetchToken($data, $apiUrl);
         // Decodifica la respuesta

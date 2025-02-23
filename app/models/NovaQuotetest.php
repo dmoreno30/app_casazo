@@ -5,10 +5,9 @@ namespace App\Models;
 use App\Models\Auth;
 use App\Traits\CurlAPI;
 
-class NovaIDtest
+class NovaQuotetest
 {
     use CurlAPI;
-    private $login = 'api/Auth/login';
     private $EnpointQuote = "/api/quote";
 
 
