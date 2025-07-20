@@ -1,0 +1,5844 @@
+
+------------------------
+2025.02.25 17:23:23
+datos
+Array
+(
+    [id] => 336
+    [venta] => Tomocefa S.A |62
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_336
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_336
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:23:23
+companyCode
+62
+------------------------
+
+------------------------
+2025.02.25 17:23:24
+resultNova order
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 336
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 141
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP1000002
+                    [anotaciones] => [p]
+comentario para pedido
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 50
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 50
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => PRD CASTEABLE EMP 62
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 1
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 50
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:23:27
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 154
+                    [OWNER_ID] => 336
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 286
+                    [PRODUCT_NAME] => SRV INTERCONSULTA EMP 62
+                    [ORIGINAL_PRODUCT_NAME] => SRV INTERCONSULTA EMP 62
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 20
+                    [PRICE_EXCLUSIVE] => 20
+                    [PRICE_NETTO] => 20
+                    [PRICE_BRUTTO] => 20
+                    [PRICE_ACCOUNT] => 10526.32
+                    [QUANTITY] => 5
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 2
+                    [MEASURE_NAME] => SRV
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_86
+                    [TYPE] => 7
+                    [STORE_ID] => 
+                    [RESERVE_ID] => 
+                    [DATE_RESERVE_END] => 
+                    [RESERVE_QUANTITY] => 
+                )
+
+            [1] => Array
+                (
+                    [ID] => 152
+                    [OWNER_ID] => 336
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 290
+                    [PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [ORIGINAL_PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 50
+                    [PRICE_EXCLUSIVE] => 50
+                    [PRICE_NETTO] => 50
+                    [PRICE_BRUTTO] => 50
+                    [PRICE_ACCOUNT] => 26315.79
+                    [QUANTITY] => 4
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 20
+                    [XML_ID] => sale_basket_84
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 52
+                    [DATE_RESERVE_END] => 01/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1740522207.3985
+            [finish] => 1740522207.4281
+            [duration] => 0.029649019241333
+            [processing] => 0.011736869812012
+            [date_start] => 2025-02-26T01:23:27+03:00
+            [date_finish] => 2025-02-26T01:23:27+03:00
+            [operating_reset_at] => 1740522807
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:23:28
+resultParent
+0
+------------------------
+
+------------------------
+2025.02.25 17:23:28
+resultParent
+288
+------------------------
+
+------------------------
+2025.02.25 17:23:31
+data
+Array
+(
+    [codigoRefExterna] => 336
+    [codTipoTransaccion] => CLIPED0001
+    [codigoSucursal] => 2
+    [codigoMoneda] => 2
+    [tipoFacturaElec] => FAC
+    [tipoTasaCambio] => C
+    [montoTasaCambio] => 1
+    [fechaDoc] => 2024-01-01
+    [fechaVencimientoDoc] => 2024-01-01
+    [diasValidezDoc] => 90
+    [codigoRefCliente] => 268
+    [codigoFormaPago] => 0
+    [codigoCentroCosto] => DP1000002
+    [anotaciones] => [p]
+comentario para pedido
+[/p]
+    [codigoVendedor] => 1
+    [codigoActividad] => 1
+    [subtotal] => 300
+    [descuento] => 0
+    [impuesto] => 0
+    [otrosCargos] => 0
+    [totalDocumento] => 300
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [numeroLinea] => 1
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 286
+                    [descripción] => SRV INTERCONSULTA EMP 62
+                    [unidadPrincipal] => SRV
+                    [cantidad] => 5
+                    [precio] => 20
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [totalLinea] => 100
+                )
+
+            [1] => Array
+                (
+                    [numeroLinea] => 2
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 288
+                    [descripción] => PRD CASTEABLE EMP 62
+                    [unidadPrincipal] => UND
+                    [cantidad] => 4
+                    [precio] => 50
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [totalLinea] => 200
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:23:31
+data2
+{"codigoRefExterna":"336","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"268","codigoFormaPago":0,"codigoCentroCosto":"DP1000002","anotaciones":"[p]\ncomentario para pedido\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":300,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":300,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"286","descripci\u00f3n":"SRV INTERCONSULTA EMP 62","unidadPrincipal":"SRV","cantidad":5,"precio":20,"descuento":0,"impuesto":0,"totalLinea":100},{"numeroLinea":2,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"288","descripci\u00f3n":"PRD CASTEABLE EMP 62","unidadPrincipal":"UND","cantidad":4,"precio":50,"descuento":0,"impuesto":0,"totalLinea":200}]}
+------------------------
+
+------------------------
+2025.02.25 17:23:31
+result actualización
+Array
+(
+    [statusCode] => 200
+    [message] => Pedido actualizado exitosamente.
+    [data] => Array
+        (
+            [codigoRefExterna] => 336
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 268
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP1000002
+            [anotaciones] => [p]
+comentario para pedido
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 300
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 300
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 286
+                            [descripción] => SRV INTERCONSULTA EMP 62
+                            [unidadPrincipal] => SRV
+                            [cantidad] => 5
+                            [precio] => 20
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 100
+                        )
+
+                    [1] => Array
+                        (
+                            [numeroLinea] => 2
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 288
+                            [descripción] => PRD CASTEABLE EMP 62
+                            [unidadPrincipal] => UND
+                            [cantidad] => 4
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 200
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:24:10
+datos
+Array
+(
+    [id] => 336
+    [venta] => Tomocefa S.A |62
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_336
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_336
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:24:11
+companyCode
+62
+------------------------
+
+------------------------
+2025.02.25 17:24:12
+resultNova order
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 336
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 141
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP1000002
+                    [anotaciones] => [p]
+comentario para pedido
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 300
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 300
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1630
+                                    [descripción] => SRV INTERCONSULTA EMP 62
+                                    [unidadPrincipal] => SRV
+                                    [cantidad] => 5
+                                    [precio] => 20
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 100
+                                )
+
+                            [1] => Array
+                                (
+                                    [numeroLinea] => 2
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => PRD CASTEABLE EMP 62
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 4
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 200
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:24:15
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 154
+                    [OWNER_ID] => 336
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 286
+                    [PRODUCT_NAME] => SRV INTERCONSULTA EMP 62
+                    [ORIGINAL_PRODUCT_NAME] => SRV INTERCONSULTA EMP 62
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 20
+                    [PRICE_EXCLUSIVE] => 20
+                    [PRICE_NETTO] => 20
+                    [PRICE_BRUTTO] => 20
+                    [PRICE_ACCOUNT] => 10526.32
+                    [QUANTITY] => 5
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 2
+                    [MEASURE_NAME] => SRV
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_86
+                    [TYPE] => 7
+                    [STORE_ID] => 
+                    [RESERVE_ID] => 
+                    [DATE_RESERVE_END] => 
+                    [RESERVE_QUANTITY] => 
+                )
+
+            [1] => Array
+                (
+                    [ID] => 152
+                    [OWNER_ID] => 336
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 290
+                    [PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [ORIGINAL_PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 50
+                    [PRICE_EXCLUSIVE] => 50
+                    [PRICE_NETTO] => 50
+                    [PRICE_BRUTTO] => 50
+                    [PRICE_ACCOUNT] => 26315.79
+                    [QUANTITY] => 4
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 20
+                    [XML_ID] => sale_basket_84
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 52
+                    [DATE_RESERVE_END] => 01/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1740522254.9227
+            [finish] => 1740522254.9892
+            [duration] => 0.066455841064453
+            [processing] => 0.011404037475586
+            [date_start] => 2025-02-26T01:24:14+03:00
+            [date_finish] => 2025-02-26T01:24:14+03:00
+            [operating_reset_at] => 1740522854
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:24:15
+resultParent
+0
+------------------------
+
+------------------------
+2025.02.25 17:24:16
+resultParent
+288
+------------------------
+
+------------------------
+2025.02.25 17:24:18
+data
+Array
+(
+    [codigoRefExterna] => 336
+    [codTipoTransaccion] => CLIPED0001
+    [codigoSucursal] => 2
+    [codigoMoneda] => 2
+    [tipoFacturaElec] => FAC
+    [tipoTasaCambio] => C
+    [montoTasaCambio] => 1
+    [fechaDoc] => 2024-01-01
+    [fechaVencimientoDoc] => 2024-01-01
+    [diasValidezDoc] => 90
+    [codigoRefCliente] => 268
+    [codigoFormaPago] => 0
+    [codigoCentroCosto] => DP1000002
+    [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+    [codigoVendedor] => 1
+    [codigoActividad] => 1
+    [subtotal] => 300
+    [descuento] => 0
+    [impuesto] => 0
+    [otrosCargos] => 0
+    [totalDocumento] => 300
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [numeroLinea] => 1
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 286
+                    [descripción] => SRV INTERCONSULTA EMP 62
+                    [unidadPrincipal] => SRV
+                    [cantidad] => 5
+                    [precio] => 20
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [totalLinea] => 100
+                )
+
+            [1] => Array
+                (
+                    [numeroLinea] => 2
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 288
+                    [descripción] => PRD CASTEABLE EMP 62
+                    [unidadPrincipal] => UND
+                    [cantidad] => 4
+                    [precio] => 50
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [totalLinea] => 200
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:24:18
+data2
+{"codigoRefExterna":"336","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"268","codigoFormaPago":0,"codigoCentroCosto":"DP1000002","anotaciones":"[p]\nPrueba de comentario....\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":300,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":300,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"286","descripci\u00f3n":"SRV INTERCONSULTA EMP 62","unidadPrincipal":"SRV","cantidad":5,"precio":20,"descuento":0,"impuesto":0,"totalLinea":100},{"numeroLinea":2,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"288","descripci\u00f3n":"PRD CASTEABLE EMP 62","unidadPrincipal":"UND","cantidad":4,"precio":50,"descuento":0,"impuesto":0,"totalLinea":200}]}
+------------------------
+
+------------------------
+2025.02.25 17:24:18
+result actualización
+Array
+(
+    [statusCode] => 200
+    [message] => Pedido actualizado exitosamente.
+    [data] => Array
+        (
+            [codigoRefExterna] => 336
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 268
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP1000002
+            [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 300
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 300
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 286
+                            [descripción] => SRV INTERCONSULTA EMP 62
+                            [unidadPrincipal] => SRV
+                            [cantidad] => 5
+                            [precio] => 20
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 100
+                        )
+
+                    [1] => Array
+                        (
+                            [numeroLinea] => 2
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 288
+                            [descripción] => PRD CASTEABLE EMP 62
+                            [unidadPrincipal] => UND
+                            [cantidad] => 4
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 200
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:25:08
+datos
+Array
+(
+    [id] => 336
+    [venta] => Tomocefa S.A |62
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_336
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_336
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:25:08
+companyCode
+62
+------------------------
+
+------------------------
+2025.02.25 17:25:09
+resultNova order
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 336
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 141
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP1000002
+                    [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 300
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 300
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1630
+                                    [descripción] => SRV INTERCONSULTA EMP 62
+                                    [unidadPrincipal] => SRV
+                                    [cantidad] => 5
+                                    [precio] => 20
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 100
+                                )
+
+                            [1] => Array
+                                (
+                                    [numeroLinea] => 2
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => PRD CASTEABLE EMP 62
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 4
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 200
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:25:12
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 152
+                    [OWNER_ID] => 336
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 290
+                    [PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [ORIGINAL_PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 50
+                    [PRICE_EXCLUSIVE] => 50
+                    [PRICE_NETTO] => 50
+                    [PRICE_BRUTTO] => 50
+                    [PRICE_ACCOUNT] => 26315.79
+                    [QUANTITY] => 5
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_84
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 52
+                    [DATE_RESERVE_END] => 01/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1740522312.4973
+            [finish] => 1740522312.5274
+            [duration] => 0.030176162719727
+            [processing] => 0.01131796836853
+            [date_start] => 2025-02-26T01:25:12+03:00
+            [date_finish] => 2025-02-26T01:25:12+03:00
+            [operating_reset_at] => 1740522912
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:25:13
+resultParent
+288
+------------------------
+
+------------------------
+2025.02.25 17:25:15
+data
+Array
+(
+    [codigoRefExterna] => 336
+    [codTipoTransaccion] => CLIPED0001
+    [codigoSucursal] => 2
+    [codigoMoneda] => 2
+    [tipoFacturaElec] => FAC
+    [tipoTasaCambio] => C
+    [montoTasaCambio] => 1
+    [fechaDoc] => 2024-01-01
+    [fechaVencimientoDoc] => 2024-01-01
+    [diasValidezDoc] => 90
+    [codigoRefCliente] => 268
+    [codigoFormaPago] => 0
+    [codigoCentroCosto] => DP1000002
+    [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+    [codigoVendedor] => 1
+    [codigoActividad] => 1
+    [subtotal] => 250
+    [descuento] => 0
+    [impuesto] => 0
+    [otrosCargos] => 0
+    [totalDocumento] => 250
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [numeroLinea] => 1
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 288
+                    [descripción] => PRD CASTEABLE EMP 62
+                    [unidadPrincipal] => UND
+                    [cantidad] => 5
+                    [precio] => 50
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [totalLinea] => 250
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:25:15
+data2
+{"codigoRefExterna":"336","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"268","codigoFormaPago":0,"codigoCentroCosto":"DP1000002","anotaciones":"[p]\nPrueba de comentario....\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":250,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":250,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"288","descripci\u00f3n":"PRD CASTEABLE EMP 62","unidadPrincipal":"UND","cantidad":5,"precio":50,"descuento":0,"impuesto":0,"totalLinea":250}]}
+------------------------
+
+------------------------
+2025.02.25 17:25:15
+result actualización
+Array
+(
+    [statusCode] => 200
+    [message] => Pedido actualizado exitosamente.
+    [data] => Array
+        (
+            [codigoRefExterna] => 336
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 268
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP1000002
+            [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 250
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 250
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 288
+                            [descripción] => PRD CASTEABLE EMP 62
+                            [unidadPrincipal] => UND
+                            [cantidad] => 5
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 250
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:26:59
+resultBitrix
+Array
+(
+    [ID] => 336
+    [TITLE] => Negociación #336
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 250.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 0.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 268
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-02-25T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-07T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-02-26T01:15:52+03:00
+    [DATE_MODIFY] => 2025-02-26T01:26:45+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+Prueba de comentario....
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => Y
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-02-26T01:15:52+03:00
+    [LAST_ACTIVITY_TIME] => 2025-02-26T01:25:16+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 5
+    [UF_CRM_1727286069] => 
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14360
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 99028
+    [UF_CRM_1739672508240] => 
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:27:00
+resultNova create 
+Array
+(
+    [statusCode] => 400
+    [message] => No hay cotizaciones registradas en este momento.
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:27:03
+resultParent
+288
+------------------------
+
+------------------------
+2025.02.25 17:27:03
+id producto
+288
+------------------------
+
+------------------------
+2025.02.25 17:27:06
+data
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 336
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoActividad] => 1
+            [tipoFacturaElec] => FAC
+            [codigoMoneda] => 2
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 268
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP1000002
+            [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+            [codigoVendedor] => 1
+            [subtotal] => 250
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 250
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 288
+                            [descripción] => PRD CASTEABLE EMP 62
+                            [unidadPrincipal] => UND
+                            [cantidad] => 5
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 250
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:27:06
+data2
+[{"codigoRefExterna":"336","codTipoTransaccion":"CLICOT0001","codigoSucursal":2,"codigoActividad":1,"tipoFacturaElec":"FAC","codigoMoneda":2,"tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"268","codigoFormaPago":0,"codigoCentroCosto":"DP1000002","anotaciones":"[p]\nPrueba de comentario....\n[\/p]","codigoVendedor":1,"subtotal":250,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":250,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"288","descripci\u00f3n":"PRD CASTEABLE EMP 62","unidadPrincipal":"UND","cantidad":5,"precio":50,"descuento":0,"impuesto":0,"totalLinea":250}]}]
+------------------------
+
+------------------------
+2025.02.25 17:27:06
+resultCreateQuoteNova
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización creada exitosamente
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 336
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2024-01-01
+                    [fechaVencimientoDoc] => 2024-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 268
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP1000002
+                    [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 250
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 250
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 288
+                                    [descripción] => PRD CASTEABLE EMP 62
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 5
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 250
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:28:45
+datos
+Array
+(
+    [id] => 336
+    [venta] => Tomocefa S.A |62
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_336
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_336
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:28:46
+companyCode
+62
+------------------------
+
+------------------------
+2025.02.25 17:28:47
+resultNova order
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 336
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 141
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP1000002
+                    [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 250
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 250
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => PRD CASTEABLE EMP 62
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 5
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 250
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:28:50
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 152
+                    [OWNER_ID] => 336
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 290
+                    [PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [ORIGINAL_PRODUCT_NAME] => PRD CASTEABLE EMP 62
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 50
+                    [PRICE_EXCLUSIVE] => 50
+                    [PRICE_NETTO] => 50
+                    [PRICE_BRUTTO] => 50
+                    [PRICE_ACCOUNT] => 26315.79
+                    [QUANTITY] => 5
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_84
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 52
+                    [DATE_RESERVE_END] => 01/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1740522529.9606
+            [finish] => 1740522530.0002
+            [duration] => 0.039616107940674
+            [processing] => 0.016429901123047
+            [date_start] => 2025-02-26T01:28:49+03:00
+            [date_finish] => 2025-02-26T01:28:50+03:00
+            [operating_reset_at] => 1740523129
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:28:50
+resultParent
+288
+------------------------
+
+------------------------
+2025.02.25 17:28:53
+data
+Array
+(
+    [codigoRefExterna] => 336
+    [codTipoTransaccion] => CLIPED0001
+    [codigoSucursal] => 2
+    [codigoMoneda] => 2
+    [tipoFacturaElec] => FAC
+    [tipoTasaCambio] => C
+    [montoTasaCambio] => 1
+    [fechaDoc] => 2024-01-01
+    [fechaVencimientoDoc] => 2024-01-01
+    [diasValidezDoc] => 90
+    [codigoRefCliente] => 268
+    [codigoFormaPago] => 0
+    [codigoCentroCosto] => DP1000002
+    [anotaciones] => [p]
+volvio a ser pedido
+[/p]
+    [codigoVendedor] => 1
+    [codigoActividad] => 1
+    [subtotal] => 250
+    [descuento] => 0
+    [impuesto] => 0
+    [otrosCargos] => 0
+    [totalDocumento] => 250
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [numeroLinea] => 1
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 288
+                    [descripción] => PRD CASTEABLE EMP 62
+                    [unidadPrincipal] => UND
+                    [cantidad] => 5
+                    [precio] => 50
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [totalLinea] => 250
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:28:53
+data2
+{"codigoRefExterna":"336","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"268","codigoFormaPago":0,"codigoCentroCosto":"DP1000002","anotaciones":"[p]\nvolvio a ser pedido\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":250,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":250,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"288","descripci\u00f3n":"PRD CASTEABLE EMP 62","unidadPrincipal":"UND","cantidad":5,"precio":50,"descuento":0,"impuesto":0,"totalLinea":250}]}
+------------------------
+
+------------------------
+2025.02.25 17:28:53
+result actualización
+Array
+(
+    [statusCode] => 400
+    [message] => No se encontró un asiento con el número de transacción de referencia: COT-00000002
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:40:28
+resultBitrix
+Array
+(
+    [ID] => 336
+    [TITLE] => Negociación #336
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 250.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 0.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 268
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-02-25T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-07T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-02-26T01:15:52+03:00
+    [DATE_MODIFY] => 2025-02-26T01:40:18+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+volvió a ser cotización
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => Y
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-02-26T01:15:52+03:00
+    [LAST_ACTIVITY_TIME] => 2025-02-26T01:28:53+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 5
+    [UF_CRM_1727286069] => 
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14360
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 99028
+    [UF_CRM_1739672508240] => 
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:40:29
+resultNova create 
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 336
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 141
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP1000002
+                    [anotaciones] => [p]
+Prueba de comentario....
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 250
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 250
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => PRD CASTEABLE EMP 62
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 5
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 250
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.02.25 17:40:33
+resultParent
+288
+------------------------
+
+------------------------
+2025.02.25 17:40:33
+id producto
+288
+------------------------
+
+------------------------
+2025.02.25 17:40:35
+result actualización
+Array
+(
+    [statusCode] => 400
+    [message] => COT-00000002
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:08:43
+ob
+Array
+(
+    [0] => Array
+        (
+            [codigoRefCliente] => 270
+            [tipoCliente] => Paciente
+            [telefono] => +5064584
+            [correo] => dairon@test222.com
+            [direccionDetalladaPri] => san jose san jose
+            [codigoSucursal] => 3
+            [codigoCentroCosto] => DP
+            [diasCreditoMax] => 15
+            [receptorFEPrincipal] => 1
+            [codigoPartidaImp] => 1
+            [montoCreditoMax] => 30
+            [montoCreditoMin] => 0
+            [codigoFormaPago] => 0
+            [codigoDireccionSec] => 001-001-002-001
+            [direccionDetalladaSec] => cualquier cosa
+            [estado] => ACT
+            [tipoCedulaReceptor] => CJU
+            [cedulaReceptor] => 96524
+            [correoReceptor] => d63po@m.com
+            [nombreCompletoReceptor] => prueba prueba
+            [contacto] => Array
+                (
+                )
+
+            [tipoCedula] => CNA
+            [cedula] => 4598521
+            [nombreCompleto] => dairon moreno
+            [codigoDireccionPri] => 001-001-001-001
+            [anotaciones] => 
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:08:43
+data2
+[{"codigoRefCliente":"270","tipoCliente":"Paciente","telefono":"+5064584","correo":"dairon@test222.com","direccionDetalladaPri":"san jose san jose","codigoSucursal":3,"codigoCentroCosto":"DP","diasCreditoMax":15,"receptorFEPrincipal":true,"codigoPartidaImp":"1","montoCreditoMax":30,"montoCreditoMin":0,"codigoFormaPago":0,"codigoDireccionSec":"001-001-002-001","direccionDetalladaSec":"cualquier cosa","estado":"ACT","tipoCedulaReceptor":"CJU","cedulaReceptor":"96524","correoReceptor":"d63po@m.com","nombreCompletoReceptor":"prueba prueba","contacto":[],"tipoCedula":"CNA","cedula":"4598521","nombreCompleto":"dairon moreno","codigoDireccionPri":"001-001-001-001","anotaciones":""}]
+------------------------
+
+------------------------
+2025.03.05 11:08:43
+resultCreateContactNova
+Array
+(
+    [statusCode] => 200
+    [message] => Cliente creado exitosamente
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefCliente] => 270
+                    [tipoCliente] => 2
+                    [telefono] => +5064584
+                    [correo] => dairon@test222.com
+                    [direccionDetalladaPri] => san jose san jose
+                    [codigoSucursal] => 3
+                    [codigoCentroCosto] => DP
+                    [diasCreditoMax] => 15
+                    [receptorFEPrincipal] => 1
+                    [codigoPartidaImp] => 1
+                    [montoCreditoMax] => 30
+                    [montoCreditoMin] => 0
+                    [codigoFormaPago] => 0
+                    [codigoDireccionSec] => 001-001-002-001
+                    [direccionDetalladaSec] => cualquier cosa
+                    [estado] => ACT
+                    [tipoCedulaReceptor] => CJU
+                    [cedulaReceptor] => 96524
+                    [nombreCompletoReceptor] => prueba prueba
+                    [correoReceptor] => d63po@m.com
+                    [contacto] => Array
+                        (
+                        )
+
+                    [tipoCedula] => CNA
+                    [cedula] => 4598521
+                    [nombreCompleto] => dairon moreno
+                    [codigoDireccionPri] => 001-001-001-001
+                    [anotaciones] => 
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:13:46
+actualizar
+Array
+(
+    [codigoRefCliente] => 270
+    [tipoCliente] => Paciente
+    [telefono] => +5064584
+    [correo] => dairon@test222.com
+    [direccionDetalladaPri] => san jose san jose
+    [codigoSucursal] => 3
+    [codigoCentroCosto] => DP
+    [diasCreditoMax] => 15
+    [receptorFEPrincipal] => 1
+    [codigoPartidaImp] => 1
+    [montoCreditoMax] => 30
+    [montoCreditoMin] => 0
+    [codigoFormaPago] => 0
+    [codigoDireccionSec] => 001-001-002-001
+    [direccionDetalladaSec] => cualquier cosa
+    [estado] => ACT
+    [tipoCedulaReceptor] => CJU
+    [cedulaReceptor] => 96524
+    [correoReceptor] => d63po@m.com
+    [nombreCompletoReceptor] => prueba prueba
+    [contacto] => Array
+        (
+        )
+
+    [tipoCedula] => CNA
+    [cedula] => 4598521
+    [nombreCompleto] => dairon perez
+    [codigoDireccionPri] => 001-001-001-001
+    [anotaciones] => 
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:13:46
+actualizado en nova
+Array
+(
+    [statusCode] => 200
+    [message] => Cliente actualizado exitosamente
+    [data] => Array
+        (
+            [codigoRefCliente] => 270
+            [tipoCliente] => Paciente
+            [telefono] => +5064584
+            [correo] => dairon@test222.com
+            [direccionDetalladaPri] => san jose san jose
+            [codigoSucursal] => 3
+            [codigoCentroCosto] => DP
+            [diasCreditoMax] => 15
+            [receptorFEPrincipal] => 1
+            [codigoPartidaImp] => 1
+            [montoCreditoMax] => 30
+            [montoCreditoMin] => 0
+            [codigoFormaPago] => 0
+            [codigoDireccionSec] => 001-001-002-001
+            [direccionDetalladaSec] => cualquier cosa
+            [estado] => ACT
+            [tipoCedulaReceptor] => CJU
+            [cedulaReceptor] => 96524
+            [nombreCompletoReceptor] => prueba prueba
+            [correoReceptor] => d63po@m.com
+            [contacto] => Array
+                (
+                )
+
+            [tipoCedula] => CNA
+            [cedula] => 4598521
+            [nombreCompleto] => dairon perez
+            [codigoDireccionPri] => 001-001-001-001
+            [anotaciones] => 
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:13:46
+data2 Json update
+{"codigoRefCliente":"270","tipoCliente":"Paciente","telefono":"+5064584","correo":"dairon@test222.com","direccionDetalladaPri":"san jose san jose","codigoSucursal":3,"codigoCentroCosto":"DP","diasCreditoMax":15,"receptorFEPrincipal":true,"codigoPartidaImp":"1","montoCreditoMax":30,"montoCreditoMin":0,"codigoFormaPago":0,"codigoDireccionSec":"001-001-002-001","direccionDetalladaSec":"cualquier cosa","estado":"ACT","tipoCedulaReceptor":"CJU","cedulaReceptor":"96524","correoReceptor":"d63po@m.com","nombreCompletoReceptor":"prueba prueba","contacto":[],"tipoCedula":"CNA","cedula":"4598521","nombreCompleto":"dairon perez","codigoDireccionPri":"001-001-001-001","anotaciones":""}
+------------------------
+
+------------------------
+2025.03.05 11:33:32
+resultBitrix
+Array
+(
+    [ID] => 338
+    [TITLE] => Negociación #338
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 52.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 2.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 270
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-05T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-12T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-05T19:18:42+03:00
+    [DATE_MODIFY] => 2025-03-05T19:32:49+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+comentario test
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-05T19:18:42+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-05T19:18:42+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 72
+    [UF_CRM_1727286069] => 4120
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4196
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14362
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 98986
+    [UF_CRM_1739672508240] => 
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:33:33
+resultNova create 
+Array
+(
+    [statusCode] => 400
+    [message] => No hay cotizaciones registradas en este momento.
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:33:36
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 11:33:36
+id producto
+298
+------------------------
+
+------------------------
+2025.03.05 11:33:39
+data
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 338
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 4
+            [codigoActividad] => 1
+            [tipoFacturaElec] => FAC
+            [codigoMoneda] => 2
+            [tipoTasaCambio] => V
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 270
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP
+            [anotaciones] => [p]
+comentario test
+[/p]
+            [codigoVendedor] => 1
+            [subtotal] => 52
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 52
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 298
+                            [descripción] => Ucla PRD EMP 59
+                            [unidadPrincipal] => UND
+                            [cantidad] => 5
+                            [precio] => 10.4
+                            [descuento] => 0
+                            [impuesto] => 4
+                            [totalLinea] => 52
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:33:39
+data2
+[{"codigoRefExterna":"338","codTipoTransaccion":"CLICOT0001","codigoSucursal":4,"codigoActividad":1,"tipoFacturaElec":"FAC","codigoMoneda":2,"tipoTasaCambio":"V","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"270","codigoFormaPago":0,"codigoCentroCosto":"DP","anotaciones":"[p]\ncomentario test\n[\/p]","codigoVendedor":1,"subtotal":52,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":52,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"298","descripci\u00f3n":"Ucla PRD EMP 59","unidadPrincipal":"UND","cantidad":5,"precio":10.4,"descuento":0,"impuesto":4,"totalLinea":52}]}]
+------------------------
+
+------------------------
+2025.03.05 11:33:39
+resultCreateQuoteNova
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización creada exitosamente
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 338
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 4
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2024-01-01
+                    [fechaVencimientoDoc] => 2024-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 270
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario test
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 52
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 52
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 298
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 5
+                                    [precio] => 10.4
+                                    [descuento] => 0
+                                    [impuesto] => 4
+                                    [totalLinea] => 52
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:34:11
+resultBitrix
+Array
+(
+    [ID] => 338
+    [TITLE] => Negociación #338
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 52.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 2.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 270
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-05T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-12T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-05T19:18:42+03:00
+    [DATE_MODIFY] => 2025-03-05T19:34:04+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+comentario test
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-05T19:18:42+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-05T19:33:40+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 5
+    [UF_CRM_1727286069] => 4120
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14362
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 98986
+    [UF_CRM_1739672508240] => 
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:34:12
+resultNova create 
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 338
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 4
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 2278
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario test
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 52
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 52
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 5
+                                    [precio] => 10.4
+                                    [descuento] => 0
+                                    [impuesto] => 0.8
+                                    [totalLinea] => 52
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:34:16
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 11:34:16
+id producto
+298
+------------------------
+
+------------------------
+2025.03.05 11:34:18
+result actualización
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización actualizada exitosamente
+    [data] => Array
+        (
+            [codigoRefExterna] => 338
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => V
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 270
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP
+            [anotaciones] => [p]
+comentario test
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 52
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 52
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 298
+                            [descripción] => Ucla PRD EMP 59
+                            [unidadPrincipal] => UND
+                            [cantidad] => 5
+                            [precio] => 10.4
+                            [descuento] => 0
+                            [impuesto] => 4
+                            [totalLinea] => 52
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:36:44
+resultBitrix
+Array
+(
+    [ID] => 338
+    [TITLE] => Negociación #338
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 62.40
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 2.40
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 270
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-05T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-12T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-05T19:18:42+03:00
+    [DATE_MODIFY] => 2025-03-05T19:36:35+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+comentario test
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-05T19:18:42+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-05T19:34:19+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 5
+    [UF_CRM_1727286069] => 4120
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14362
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 98986
+    [UF_CRM_1739672508240] => 
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:36:44
+resultNova create 
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 338
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 2278
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario test
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 52
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 52
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 5
+                                    [precio] => 10.4
+                                    [descuento] => 0
+                                    [impuesto] => 0.8
+                                    [totalLinea] => 52
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:36:48
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 11:36:48
+id producto
+298
+------------------------
+
+------------------------
+2025.03.05 11:36:51
+result actualización
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización actualizada exitosamente
+    [data] => Array
+        (
+            [codigoRefExterna] => 338
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => V
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 270
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP
+            [anotaciones] => [p]
+comentario test
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 62.4
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 62.4
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 298
+                            [descripción] => Ucla PRD EMP 59
+                            [unidadPrincipal] => UND
+                            [cantidad] => 6
+                            [precio] => 10.4
+                            [descuento] => 0
+                            [impuesto] => 4
+                            [totalLinea] => 62.4
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:50:41
+datos
+Array
+(
+    [id] => 340
+    [venta] => Edental Alajuela S.A. |59
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_340
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_340
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:50:41
+companyCode
+59
+------------------------
+
+------------------------
+2025.03.05 11:50:42
+resultNova order
+Array
+(
+    [statusCode] => 400
+    [message] => Actualmente no hay pedidos registrados o el número de transacción indicado es incorrecto.
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:50:46
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 160
+                    [OWNER_ID] => 340
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 300
+                    [PRODUCT_NAME] => Ucla PRD EMP 59
+                    [ORIGINAL_PRODUCT_NAME] => Ucla PRD EMP 59
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 10.4
+                    [PRICE_EXCLUSIVE] => 10
+                    [PRICE_NETTO] => 10
+                    [PRICE_BRUTTO] => 10.4
+                    [PRICE_ACCOUNT] => 5473.68
+                    [QUANTITY] => 6
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 4
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_96
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 58
+                    [DATE_RESERVE_END] => 08/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741193446.0319
+            [finish] => 1741193446.0659
+            [duration] => 0.033957004547119
+            [processing] => 0.013435840606689
+            [date_start] => 2025-03-05T19:50:46+03:00
+            [date_finish] => 2025-03-05T19:50:46+03:00
+            [operating_reset_at] => 1741194046
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:50:46
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 11:50:48
+data create
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 340
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => V
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 270
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP
+            [anotaciones] => [p]
+comentario test
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 62.4
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 62.4
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 298
+                            [descripción] => Ucla PRD EMP 59
+                            [unidadPrincipal] => UND
+                            [cantidad] => 6
+                            [precio] => 10.4
+                            [descuento] => 0
+                            [impuesto] => 4
+                            [totalLinea] => 62.4
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 11:50:48
+data2 create
+[{"codigoRefExterna":"340","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"V","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"270","codigoFormaPago":0,"codigoCentroCosto":"DP","anotaciones":"[p]\ncomentario test\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":62.4,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":62.4,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"298","descripci\u00f3n":"Ucla PRD EMP 59","unidadPrincipal":"UND","cantidad":6,"precio":10.4,"descuento":0,"impuesto":4,"totalLinea":62.400000000000006}]}]
+------------------------
+
+------------------------
+2025.03.05 11:50:49
+resultCreateOrderNova
+Array
+(
+    [statusCode] => 200
+    [message] => Pedido creado exitosamente.
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 340
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2024-01-01
+                    [fechaVencimientoDoc] => 2024-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 270
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario test
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 62.4
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 62.4
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 298
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 6
+                                    [precio] => 10.4
+                                    [descuento] => 0
+                                    [impuesto] => 4
+                                    [totalLinea] => 62.4
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:00:12
+datos
+Array
+(
+    [id] => 338
+    [venta] => Edental Alajuela S.A. |59
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_338
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_338
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:00:12
+companyCode
+59
+------------------------
+
+------------------------
+2025.03.05 12:00:13
+resultNova order
+Array
+(
+    [statusCode] => 400
+    [message] => Actualmente no hay pedidos registrados o el número de transacción indicado es incorrecto.
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:00:17
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 158
+                    [OWNER_ID] => 338
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 300
+                    [PRODUCT_NAME] => Ucla PRD EMP 59
+                    [ORIGINAL_PRODUCT_NAME] => Ucla PRD EMP 59
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 10.4
+                    [PRICE_EXCLUSIVE] => 10
+                    [PRICE_NETTO] => 10
+                    [PRICE_BRUTTO] => 10.4
+                    [PRICE_ACCOUNT] => 5473.68
+                    [QUANTITY] => 6
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 4
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_94
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 56
+                    [DATE_RESERVE_END] => 08/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741194017.0885
+            [finish] => 1741194017.1298
+            [duration] => 0.041211128234863
+            [processing] => 0.013796806335449
+            [date_start] => 2025-03-05T20:00:17+03:00
+            [date_finish] => 2025-03-05T20:00:17+03:00
+            [operating_reset_at] => 1741194617
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:00:17
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 12:00:19
+data create
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 338
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => V
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 270
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP
+            [anotaciones] => [p]
+comentario test
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 62.4
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 62.4
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 298
+                            [descripción] => Ucla PRD EMP 59
+                            [unidadPrincipal] => UND
+                            [cantidad] => 6
+                            [precio] => 10.4
+                            [descuento] => 0
+                            [impuesto] => 4
+                            [totalLinea] => 62.4
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:00:19
+data2 create
+[{"codigoRefExterna":"338","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"V","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"270","codigoFormaPago":0,"codigoCentroCosto":"DP","anotaciones":"[p]\ncomentario test\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":62.4,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":62.4,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"298","descripci\u00f3n":"Ucla PRD EMP 59","unidadPrincipal":"UND","cantidad":6,"precio":10.4,"descuento":0,"impuesto":4,"totalLinea":62.400000000000006}]}]
+------------------------
+
+------------------------
+2025.03.05 12:00:19
+resultCreateOrderNova
+Array
+(
+    [statusCode] => 200
+    [message] => Pedido creado exitosamente.
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 338
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2024-01-01
+                    [fechaVencimientoDoc] => 2024-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 270
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario test
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 62.4
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 62.4
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 298
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 6
+                                    [precio] => 10.4
+                                    [descuento] => 0
+                                    [impuesto] => 4
+                                    [totalLinea] => 62.4
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:04:12
+actualizar
+Array
+(
+    [codigoRefCliente] => 270
+    [tipoCliente] => Paciente
+    [telefono] => +5064584
+    [correo] => dairon@test222.com
+    [direccionDetalladaPri] => san jose san jose
+    [codigoSucursal] => 3
+    [codigoCentroCosto] => DP
+    [diasCreditoMax] => 15
+    [receptorFEPrincipal] => 1
+    [codigoPartidaImp] => 1
+    [montoCreditoMax] => 30
+    [montoCreditoMin] => 0
+    [codigoFormaPago] => 0
+    [codigoDireccionSec] => 001-001-002-001
+    [direccionDetalladaSec] => cualquier cosa
+    [estado] => ACT
+    [tipoCedulaReceptor] => CJU
+    [cedulaReceptor] => 96524
+    [correoReceptor] => d63po@m.com
+    [nombreCompletoReceptor] => prueba prueba
+    [contacto] => Array
+        (
+        )
+
+    [tipoCedula] => CNA
+    [cedula] => 4598521
+    [nombreCompleto] => dairon test05
+    [codigoDireccionPri] => 001-001-001-001
+    [anotaciones] => 
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:04:13
+actualizado en nova
+Array
+(
+    [statusCode] => 200
+    [message] => Cliente actualizado exitosamente
+    [data] => Array
+        (
+            [codigoRefCliente] => 270
+            [tipoCliente] => Paciente
+            [telefono] => +5064584
+            [correo] => dairon@test222.com
+            [direccionDetalladaPri] => san jose san jose
+            [codigoSucursal] => 3
+            [codigoCentroCosto] => DP
+            [diasCreditoMax] => 15
+            [receptorFEPrincipal] => 1
+            [codigoPartidaImp] => 1
+            [montoCreditoMax] => 30
+            [montoCreditoMin] => 0
+            [codigoFormaPago] => 0
+            [codigoDireccionSec] => 001-001-002-001
+            [direccionDetalladaSec] => cualquier cosa
+            [estado] => ACT
+            [tipoCedulaReceptor] => CJU
+            [cedulaReceptor] => 96524
+            [nombreCompletoReceptor] => prueba prueba
+            [correoReceptor] => d63po@m.com
+            [contacto] => Array
+                (
+                )
+
+            [tipoCedula] => CNA
+            [cedula] => 4598521
+            [nombreCompleto] => dairon test05
+            [codigoDireccionPri] => 001-001-001-001
+            [anotaciones] => 
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:04:13
+data2 Json update
+{"codigoRefCliente":"270","tipoCliente":"Paciente","telefono":"+5064584","correo":"dairon@test222.com","direccionDetalladaPri":"san jose san jose","codigoSucursal":3,"codigoCentroCosto":"DP","diasCreditoMax":15,"receptorFEPrincipal":true,"codigoPartidaImp":"1","montoCreditoMax":30,"montoCreditoMin":0,"codigoFormaPago":0,"codigoDireccionSec":"001-001-002-001","direccionDetalladaSec":"cualquier cosa","estado":"ACT","tipoCedulaReceptor":"CJU","cedulaReceptor":"96524","correoReceptor":"d63po@m.com","nombreCompletoReceptor":"prueba prueba","contacto":[],"tipoCedula":"CNA","cedula":"4598521","nombreCompleto":"dairon test05","codigoDireccionPri":"001-001-001-001","anotaciones":""}
+------------------------
+
+------------------------
+2025.03.05 12:05:14
+datos
+Array
+(
+    [id] => 338
+    [venta] => Edental Alajuela S.A. |59
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_338
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_338
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:05:15
+companyCode
+59
+------------------------
+
+------------------------
+2025.03.05 12:05:15
+resultNova order
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 338
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 2278
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario test
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 62.4
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 62.4
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 6
+                                    [precio] => 10.4
+                                    [descuento] => 0
+                                    [impuesto] => 0.666667
+                                    [totalLinea] => 62.4
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:05:19
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 158
+                    [OWNER_ID] => 338
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 300
+                    [PRODUCT_NAME] => Ucla PRD EMP 59
+                    [ORIGINAL_PRODUCT_NAME] => Ucla PRD EMP 59
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 10.4
+                    [PRICE_EXCLUSIVE] => 10
+                    [PRICE_NETTO] => 10
+                    [PRICE_BRUTTO] => 10.4
+                    [PRICE_ACCOUNT] => 5473.68
+                    [QUANTITY] => 6
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 4
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_94
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 56
+                    [DATE_RESERVE_END] => 08/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741194319.1132
+            [finish] => 1741194319.1447
+            [duration] => 0.031569004058838
+            [processing] => 0.011940002441406
+            [date_start] => 2025-03-05T20:05:19+03:00
+            [date_finish] => 2025-03-05T20:05:19+03:00
+            [operating_reset_at] => 1741194919
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:05:19
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 12:05:22
+data
+Array
+(
+    [codigoRefExterna] => 338
+    [codTipoTransaccion] => CLIPED0001
+    [codigoSucursal] => 2
+    [codigoMoneda] => 2
+    [tipoFacturaElec] => FAC
+    [tipoTasaCambio] => V
+    [montoTasaCambio] => 1
+    [fechaDoc] => 2024-01-01
+    [fechaVencimientoDoc] => 2024-01-01
+    [diasValidezDoc] => 90
+    [codigoRefCliente] => 270
+    [codigoFormaPago] => 0
+    [codigoCentroCosto] => DP
+    [anotaciones] => [p]
+pedido test
+[/p]
+    [codigoVendedor] => 1
+    [codigoActividad] => 1
+    [subtotal] => 62.4
+    [descuento] => 0
+    [impuesto] => 0
+    [otrosCargos] => 0
+    [totalDocumento] => 62.4
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [numeroLinea] => 1
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 298
+                    [descripción] => Ucla PRD EMP 59
+                    [unidadPrincipal] => UND
+                    [cantidad] => 6
+                    [precio] => 10.4
+                    [descuento] => 0
+                    [impuesto] => 4
+                    [totalLinea] => 62.4
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:05:22
+data2
+{"codigoRefExterna":"338","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"V","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"270","codigoFormaPago":0,"codigoCentroCosto":"DP","anotaciones":"[p]\npedido test\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":62.4,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":62.4,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"298","descripci\u00f3n":"Ucla PRD EMP 59","unidadPrincipal":"UND","cantidad":6,"precio":10.4,"descuento":0,"impuesto":4,"totalLinea":62.400000000000006}]}
+------------------------
+
+------------------------
+2025.03.05 12:05:22
+result actualización
+Array
+(
+    [statusCode] => 400
+    [message] => No se encontró un asiento con el número de transacción de referencia: COT-00000001
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:08:30
+resultBitrix
+Array
+(
+    [ID] => 342
+    [TITLE] => Negociación #342
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 166.40
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 6.40
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 270
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-05T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-26T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-05T20:07:38+03:00
+    [DATE_MODIFY] => 2025-03-05T20:08:17+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+comentario cotización
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-05T20:07:38+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-05T20:07:38+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 72
+    [UF_CRM_1727286069] => 4118
+    [UF_CRM_1727286167] => 4124
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4194
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14362
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 98986
+    [UF_CRM_1739672508240] => 
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:08:31
+resultNova create 
+Array
+(
+    [statusCode] => 400
+    [message] => No hay cotizaciones registradas en este momento.
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:08:35
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 12:08:35
+id producto
+298
+------------------------
+
+------------------------
+2025.03.05 12:08:37
+data
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 342
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 3
+            [codigoActividad] => 1
+            [tipoFacturaElec] => TIQ
+            [codigoMoneda] => 2
+            [tipoTasaCambio] => V
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 270
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP
+            [anotaciones] => [p]
+comentario cotización
+[/p]
+            [codigoVendedor] => 1
+            [subtotal] => 166.4
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 166.4
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 298
+                            [descripción] => Ucla PRD EMP 59
+                            [unidadPrincipal] => UND
+                            [cantidad] => 8
+                            [precio] => 20.8
+                            [descuento] => 0
+                            [impuesto] => 4
+                            [totalLinea] => 166.4
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:08:37
+data2
+[{"codigoRefExterna":"342","codTipoTransaccion":"CLICOT0001","codigoSucursal":3,"codigoActividad":1,"tipoFacturaElec":"TIQ","codigoMoneda":2,"tipoTasaCambio":"V","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"270","codigoFormaPago":0,"codigoCentroCosto":"DP","anotaciones":"[p]\ncomentario cotizaci\u00f3n\n[\/p]","codigoVendedor":1,"subtotal":166.4,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":166.4,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"298","descripci\u00f3n":"Ucla PRD EMP 59","unidadPrincipal":"UND","cantidad":8,"precio":20.8,"descuento":0,"impuesto":4,"totalLinea":166.4}]}]
+------------------------
+
+------------------------
+2025.03.05 12:08:37
+resultCreateQuoteNova
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización creada exitosamente
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 342
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 3
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => TIQ
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2024-01-01
+                    [fechaVencimientoDoc] => 2024-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 270
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario cotización
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 166.4
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 166.4
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 298
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 8
+                                    [precio] => 20.8
+                                    [descuento] => 0
+                                    [impuesto] => 4
+                                    [totalLinea] => 166.4
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:10:58
+datos
+Array
+(
+    [id] => 342
+    [venta] => Edental Alajuela S.A. |59
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_342
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_342
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:10:59
+companyCode
+59
+------------------------
+
+------------------------
+2025.03.05 12:10:59
+resultNova order
+Array
+(
+    [statusCode] => 400
+    [message] => Actualmente no hay pedidos registrados o el número de transacción indicado es incorrecto.
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:11:04
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 162
+                    [OWNER_ID] => 342
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 300
+                    [PRODUCT_NAME] => Ucla PRD EMP 59
+                    [ORIGINAL_PRODUCT_NAME] => Ucla PRD EMP 59
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 20.8
+                    [PRICE_EXCLUSIVE] => 20
+                    [PRICE_NETTO] => 20
+                    [PRICE_BRUTTO] => 20.8
+                    [PRICE_ACCOUNT] => 10947.37
+                    [QUANTITY] => 8
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 4
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_98
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 60
+                    [DATE_RESERVE_END] => 08/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741194663.5512
+            [finish] => 1741194664.2439
+            [duration] => 0.69265389442444
+            [processing] => 0.012576103210449
+            [date_start] => 2025-03-05T20:11:03+03:00
+            [date_finish] => 2025-03-05T20:11:04+03:00
+            [operating_reset_at] => 1741195264
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:11:04
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 12:11:07
+data create
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 342
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 3
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => TIQ
+            [tipoTasaCambio] => V
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 270
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP
+            [anotaciones] => [p]
+comentario cotización
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 166.4
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 166.4
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 298
+                            [descripción] => Ucla PRD EMP 59
+                            [unidadPrincipal] => UND
+                            [cantidad] => 8
+                            [precio] => 20.8
+                            [descuento] => 0
+                            [impuesto] => 4
+                            [totalLinea] => 166.4
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:11:07
+data2 create
+[{"codigoRefExterna":"342","codTipoTransaccion":"CLIPED0001","codigoSucursal":3,"codigoMoneda":2,"tipoFacturaElec":"TIQ","tipoTasaCambio":"V","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"270","codigoFormaPago":0,"codigoCentroCosto":"DP","anotaciones":"[p]\ncomentario cotizaci\u00f3n\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":166.4,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":166.4,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"298","descripci\u00f3n":"Ucla PRD EMP 59","unidadPrincipal":"UND","cantidad":8,"precio":20.8,"descuento":0,"impuesto":4,"totalLinea":166.4}]}]
+------------------------
+
+------------------------
+2025.03.05 12:11:07
+resultCreateOrderNova
+Array
+(
+    [statusCode] => 200
+    [message] => Pedido creado exitosamente.
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 342
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 3
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => TIQ
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2024-01-01
+                    [fechaVencimientoDoc] => 2024-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 270
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario cotización
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 166.4
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 166.4
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 298
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 8
+                                    [precio] => 20.8
+                                    [descuento] => 0
+                                    [impuesto] => 4
+                                    [totalLinea] => 166.4
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:47:00
+datos
+Array
+(
+    [id] => 342
+    [venta] => Edental Alajuela S.A. |59
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_342
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_342
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:47:01
+companyCode
+59
+------------------------
+
+------------------------
+2025.03.05 12:47:01
+resultNova order
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 342
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 3
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => TIQ
+                    [tipoTasaCambio] => V
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 2278
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP
+                    [anotaciones] => [p]
+comentario cotización
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 166.4
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 166.4
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1629
+                                    [descripción] => Ucla PRD EMP 59
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 8
+                                    [precio] => 20.8
+                                    [descuento] => 0
+                                    [impuesto] => 0.5
+                                    [totalLinea] => 166.4
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:47:05
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 162
+                    [OWNER_ID] => 342
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 300
+                    [PRODUCT_NAME] => Ucla PRD EMP 59
+                    [ORIGINAL_PRODUCT_NAME] => Ucla PRD EMP 59
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 20.8
+                    [PRICE_EXCLUSIVE] => 20
+                    [PRICE_NETTO] => 20
+                    [PRICE_BRUTTO] => 20.8
+                    [PRICE_ACCOUNT] => 10947.37
+                    [QUANTITY] => 8
+                    [DISCOUNT_TYPE_ID] => 1
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 4
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_98
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 62
+                    [DATE_RESERVE_END] => 08/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741196824.9556
+            [finish] => 1741196824.993
+            [duration] => 0.03735089302063
+            [processing] => 0.015365839004517
+            [date_start] => 2025-03-05T20:47:04+03:00
+            [date_finish] => 2025-03-05T20:47:04+03:00
+            [operating_reset_at] => 1741197424
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:47:05
+resultParent
+298
+------------------------
+
+------------------------
+2025.03.05 12:47:08
+data
+Array
+(
+    [codigoRefExterna] => 342
+    [codTipoTransaccion] => CLIPED0001
+    [codigoSucursal] => 3
+    [codigoMoneda] => 2
+    [tipoFacturaElec] => TIQ
+    [tipoTasaCambio] => V
+    [montoTasaCambio] => 1
+    [fechaDoc] => 2024-01-01
+    [fechaVencimientoDoc] => 2024-01-01
+    [diasValidezDoc] => 90
+    [codigoRefCliente] => 270
+    [codigoFormaPago] => 0
+    [codigoCentroCosto] => DP
+    [anotaciones] => [p]
+comentario pedido
+[/p]
+    [codigoVendedor] => 1
+    [codigoActividad] => 1
+    [subtotal] => 166.4
+    [descuento] => 0
+    [impuesto] => 0
+    [otrosCargos] => 0
+    [totalDocumento] => 166.4
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [numeroLinea] => 1
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 298
+                    [descripción] => Ucla PRD EMP 59
+                    [unidadPrincipal] => UND
+                    [cantidad] => 8
+                    [precio] => 20.8
+                    [descuento] => 0
+                    [impuesto] => 4
+                    [totalLinea] => 166.4
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.05 12:47:08
+data2
+{"codigoRefExterna":"342","codTipoTransaccion":"CLIPED0001","codigoSucursal":3,"codigoMoneda":2,"tipoFacturaElec":"TIQ","tipoTasaCambio":"V","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"270","codigoFormaPago":0,"codigoCentroCosto":"DP","anotaciones":"[p]\ncomentario pedido\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":166.4,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":166.4,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"298","descripci\u00f3n":"Ucla PRD EMP 59","unidadPrincipal":"UND","cantidad":8,"precio":20.8,"descuento":0,"impuesto":4,"totalLinea":166.4}]}
+------------------------
+
+------------------------
+2025.03.05 12:47:08
+result actualización
+Array
+(
+    [statusCode] => 400
+    [message] => No se encontró un asiento con el número de transacción de referencia: COT-00000002
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:12:11
+ob
+Array
+(
+    [0] => Array
+        (
+            [codigoRefCliente] => 272
+            [tipoCliente] => Paciente
+            [telefono] => +50654544
+            [correo] => brandon@test.com
+            [direccionDetalladaPri] => san jose sanjose carmen 
+            [codigoSucursal] => 2
+            [codigoCentroCosto] => DP10
+            [diasCreditoMax] => 0
+            [receptorFEPrincipal] => 1
+            [codigoPartidaImp] => 1
+            [montoCreditoMax] => 30
+            [montoCreditoMin] => 0
+            [codigoFormaPago] => 0
+            [codigoDireccionSec] => 001-001-002-001
+            [direccionDetalladaSec] => cualquier cosa
+            [estado] => ACT
+            [tipoCedulaReceptor] => CJU
+            [cedulaReceptor] => 96524
+            [correoReceptor] => d63po@m.com
+            [nombreCompletoReceptor] => prueba prueba
+            [contacto] => Array
+                (
+                )
+
+            [tipoCedula] => CNA
+            [cedula] => 598563
+            [nombreCompleto] => brandon Muñoz
+            [codigoDireccionPri] => 001-001-001-001
+            [anotaciones] => test
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:12:11
+data2
+[{"codigoRefCliente":"272","tipoCliente":"Paciente","telefono":"+50654544","correo":"brandon@test.com","direccionDetalladaPri":"san jose sanjose carmen ","codigoSucursal":2,"codigoCentroCosto":"DP10","diasCreditoMax":0,"receptorFEPrincipal":true,"codigoPartidaImp":"1","montoCreditoMax":30,"montoCreditoMin":0,"codigoFormaPago":0,"codigoDireccionSec":"001-001-002-001","direccionDetalladaSec":"cualquier cosa","estado":"ACT","tipoCedulaReceptor":"CJU","cedulaReceptor":"96524","correoReceptor":"d63po@m.com","nombreCompletoReceptor":"prueba prueba","contacto":[],"tipoCedula":"CNA","cedula":"598563","nombreCompleto":"brandon Mu\u00f1oz","codigoDireccionPri":"001-001-001-001","anotaciones":"test"}]
+------------------------
+
+------------------------
+2025.03.12 17:12:11
+resultCreateContactNova
+Array
+(
+    [statusCode] => 200
+    [message] => Cliente creado exitosamente
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefCliente] => 272
+                    [tipoCliente] => 2
+                    [telefono] => +50654544
+                    [correo] => brandon@test.com
+                    [direccionDetalladaPri] => san jose sanjose carmen 
+                    [codigoSucursal] => 2
+                    [codigoCentroCosto] => DP10
+                    [diasCreditoMax] => 0
+                    [receptorFEPrincipal] => 1
+                    [codigoPartidaImp] => 1
+                    [montoCreditoMax] => 30
+                    [montoCreditoMin] => 0
+                    [codigoFormaPago] => 0
+                    [codigoDireccionSec] => 001-001-002-001
+                    [direccionDetalladaSec] => cualquier cosa
+                    [estado] => ACT
+                    [tipoCedulaReceptor] => CJU
+                    [cedulaReceptor] => 96524
+                    [nombreCompletoReceptor] => prueba prueba
+                    [correoReceptor] => d63po@m.com
+                    [contacto] => Array
+                        (
+                        )
+
+                    [tipoCedula] => CNA
+                    [cedula] => 598563
+                    [nombreCompleto] => brandon Muñoz
+                    [codigoDireccionPri] => 001-001-001-001
+                    [anotaciones] => test
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:18:19
+resultBitrix
+Array
+(
+    [ID] => 356
+    [TITLE] => Negociación #356
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 150.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 0.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 272
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-12T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-20T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-13T00:17:02+03:00
+    [DATE_MODIFY] => 2025-03-13T00:18:03+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+test comentario
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-13T00:17:02+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-13T00:17:02+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 72
+    [UF_CRM_1727286069] => 4120
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14360
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 99024
+    [UF_CRM_1739672508240] => 
+    [UF_CRM_1741195711143] => 
+    [UF_CRM_1741196487166] => 
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:18:20
+resultNova create 
+Array
+(
+    [statusCode] => 400
+    [message] => No hay cotizaciones registradas en este momento.
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:18:23
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:18:23
+id producto
+302
+------------------------
+
+------------------------
+2025.03.12 17:18:26
+data
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 356
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoActividad] => 1
+            [tipoFacturaElec] => FAC
+            [codigoMoneda] => 2
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 272
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP10
+            [anotaciones] => [p]
+test comentario
+[/p]
+            [codigoVendedor] => 1
+            [subtotal] => 150
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 150
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 302
+                            [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                            [unidadPrincipal] => UND
+                            [cantidad] => 3
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 150
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:18:26
+data2
+[{"codigoRefExterna":"356","codTipoTransaccion":"CLICOT0001","codigoSucursal":2,"codigoActividad":1,"tipoFacturaElec":"FAC","codigoMoneda":2,"tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"272","codigoFormaPago":0,"codigoCentroCosto":"DP10","anotaciones":"[p]\ntest comentario\n[\/p]","codigoVendedor":1,"subtotal":150,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":150,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"302","descripci\u00f3n":"ITEM Prd Ucla NUEVA EMP 60","unidadPrincipal":"UND","cantidad":3,"precio":50,"descuento":0,"impuesto":0,"totalLinea":150}]}]
+------------------------
+
+------------------------
+2025.03.12 17:18:26
+resultCreateQuoteNova
+
+------------------------
+
+------------------------
+2025.03.12 17:29:28
+resultBitrix
+Array
+(
+    [ID] => 356
+    [TITLE] => Negociación #356
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 150.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 0.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 272
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-12T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-20T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-13T00:17:02+03:00
+    [DATE_MODIFY] => 2025-03-13T00:18:26+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+test comentario
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-13T00:17:02+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-13T00:18:26+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 5
+    [UF_CRM_1727286069] => 4120
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14360
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 99024
+    [UF_CRM_1739672508240] => 
+    [UF_CRM_1741195711143] => 
+    [UF_CRM_1741196487166] => 
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:29:29
+resultNova create 
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 10461
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => p
+test comentario
+/p
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1658
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 10461
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => p
+test comentario
+/p
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1658
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 10461
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => p
+test comentario
+/p
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1658
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:29:33
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:29:33
+id producto
+302
+------------------------
+
+------------------------
+2025.03.12 17:29:35
+result actualización
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización actualizada exitosamente
+    [data] => Array
+        (
+            [codigoRefExterna] => 356
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2025-01-01
+            [fechaVencimientoDoc] => 2025-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 272
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP10
+            [anotaciones] => [p]
+test comentario
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 150
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 150
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 302
+                            [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                            [unidadPrincipal] => UND
+                            [cantidad] => 3
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 150
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:31:25
+resultBitrix
+Array
+(
+    [ID] => 356
+    [TITLE] => Negociación #356
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 150.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 0.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 272
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-12T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-20T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-13T00:17:02+03:00
+    [DATE_MODIFY] => 2025-03-13T00:29:36+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+test comentario
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-13T00:17:02+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-13T00:29:36+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 5
+    [UF_CRM_1727286069] => 4120
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14360
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 99024
+    [UF_CRM_1739672508240] => 
+    [UF_CRM_1741195711143] => 
+    [UF_CRM_1741196487166] => 
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:31:26
+resultNova create 
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 10461
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => p
+test comentario
+/p
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1658
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 10461
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => p
+test comentario
+/p
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1658
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:31:31
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:31:31
+id producto
+302
+------------------------
+
+------------------------
+2025.03.12 17:31:33
+result actualización
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización actualizada exitosamente
+    [data] => Array
+        (
+            [codigoRefExterna] => 356
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2025-01-01
+            [fechaVencimientoDoc] => 2025-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 272
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP10
+            [anotaciones] => [p]
+test comentario
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 150
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 150
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 302
+                            [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                            [unidadPrincipal] => UND
+                            [cantidad] => 3
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 150
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:32:37
+resultBitrix
+Array
+(
+    [ID] => 356
+    [TITLE] => Negociación #356
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 150.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 0.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 272
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-12T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-20T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-13T00:17:02+03:00
+    [DATE_MODIFY] => 2025-03-13T00:31:33+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+test comentario
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-13T00:17:02+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-13T00:31:33+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 5
+    [UF_CRM_1727286069] => 4120
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14360
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 99024
+    [UF_CRM_1739672508240] => 
+    [UF_CRM_1741195711143] => 
+    [UF_CRM_1741196487166] => 
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:32:38
+resultNova create 
+Array
+(
+    [statusCode] => 400
+    [message] => No hay cotizaciones registradas en este momento.
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:32:41
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:32:41
+id producto
+302
+------------------------
+
+------------------------
+2025.03.12 17:32:44
+data
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 356
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoActividad] => 1
+            [tipoFacturaElec] => FAC
+            [codigoMoneda] => 2
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2025-01-01
+            [fechaVencimientoDoc] => 2025-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 272
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP10
+            [anotaciones] => [p]
+test comentario
+[/p]
+            [codigoVendedor] => 1
+            [subtotal] => 150
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 150
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 302
+                            [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                            [unidadPrincipal] => UND
+                            [cantidad] => 3
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 150
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:32:44
+data2
+[{"codigoRefExterna":"356","codTipoTransaccion":"CLICOT0001","codigoSucursal":2,"codigoActividad":1,"tipoFacturaElec":"FAC","codigoMoneda":2,"tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2025-01-01","fechaVencimientoDoc":"2025-01-01","diasValidezDoc":90,"codigoRefCliente":"272","codigoFormaPago":0,"codigoCentroCosto":"DP10","anotaciones":"[p]\ntest comentario\n[\/p]","codigoVendedor":1,"subtotal":150,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":150,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"302","descripci\u00f3n":"ITEM Prd Ucla NUEVA EMP 60","unidadPrincipal":"UND","cantidad":3,"precio":50,"descuento":0,"impuesto":0,"totalLinea":150}]}]
+------------------------
+
+------------------------
+2025.03.12 17:32:44
+resultCreateQuoteNova
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización creada exitosamente
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2025-01-01
+                    [fechaVencimientoDoc] => 2025-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 272
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => [p]
+test comentario
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 302
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:39:11
+datos
+Array
+(
+    [id] => 356
+    [venta] => Enero Catorce S.A. |60
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_356
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_356
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:39:11
+companyCode
+60
+------------------------
+
+------------------------
+2025.03.12 17:39:12
+resultNova order
+Array
+(
+    [statusCode] => 400
+    [message] => Actualmente no hay pedidos registrados o el número de transacción indicado es incorrecto.
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:39:15
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 172
+                    [OWNER_ID] => 356
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 304
+                    [PRODUCT_NAME] => ITEM Prd Ucla NUEVA EMP 60
+                    [ORIGINAL_PRODUCT_NAME] => ITEM Prd Ucla NUEVA EMP 60
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 50
+                    [PRICE_EXCLUSIVE] => 50
+                    [PRICE_NETTO] => 50
+                    [PRICE_BRUTTO] => 50
+                    [PRICE_ACCOUNT] => 26315.79
+                    [QUANTITY] => 3
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_104
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 68
+                    [DATE_RESERVE_END] => 16/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741815555.7644
+            [finish] => 1741815555.8129
+            [duration] => 0.048543930053711
+            [processing] => 0.01189398765564
+            [date_start] => 2025-03-13T00:39:15+03:00
+            [date_finish] => 2025-03-13T00:39:15+03:00
+            [operating_reset_at] => 1741816155
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:39:16
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:39:18
+data create
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 356
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2024-01-01
+            [fechaVencimientoDoc] => 2024-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 272
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP10
+            [anotaciones] => [p]
+test comentario
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 150
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 150
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 302
+                            [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                            [unidadPrincipal] => UND
+                            [cantidad] => 3
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 150
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:39:18
+data2 create
+[{"codigoRefExterna":"356","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2024-01-01","fechaVencimientoDoc":"2024-01-01","diasValidezDoc":90,"codigoRefCliente":"272","codigoFormaPago":0,"codigoCentroCosto":"DP10","anotaciones":"[p]\ntest comentario\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":150,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":150,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"302","descripci\u00f3n":"ITEM Prd Ucla NUEVA EMP 60","unidadPrincipal":"UND","cantidad":3,"precio":50,"descuento":0,"impuesto":0,"totalLinea":150}]}]
+------------------------
+
+------------------------
+2025.03.12 17:39:18
+resultCreateOrderNova
+
+------------------------
+
+------------------------
+2025.03.12 17:41:24
+datos
+Array
+(
+    [id] => 356
+    [venta] => Enero Catorce S.A. |60
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_356
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_356
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:41:24
+companyCode
+60
+------------------------
+
+------------------------
+2025.03.12 17:41:25
+resultNova order
+Array
+(
+    [statusCode] => 200
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 1/1/2024 12:00:00 AM
+                    [fechaVencimientoDoc] => 1/1/2024 12:00:00 AM
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 10461
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => p
+test comentario
+/p
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => sistema
+                                    [codigoItem] => 1658
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:41:28
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 172
+                    [OWNER_ID] => 356
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 304
+                    [PRODUCT_NAME] => ITEM Prd Ucla NUEVA EMP 60
+                    [ORIGINAL_PRODUCT_NAME] => ITEM Prd Ucla NUEVA EMP 60
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 50
+                    [PRICE_EXCLUSIVE] => 50
+                    [PRICE_NETTO] => 50
+                    [PRICE_BRUTTO] => 50
+                    [PRICE_ACCOUNT] => 26315.79
+                    [QUANTITY] => 3
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_104
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 68
+                    [DATE_RESERVE_END] => 16/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741815688.5756
+            [finish] => 1741815688.6099
+            [duration] => 0.034291982650757
+            [processing] => 0.014656066894531
+            [date_start] => 2025-03-13T00:41:28+03:00
+            [date_finish] => 2025-03-13T00:41:28+03:00
+            [operating_reset_at] => 1741816288
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:41:29
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:41:32
+data
+Array
+(
+    [codigoRefExterna] => 356
+    [codTipoTransaccion] => CLIPED0001
+    [codigoSucursal] => 2
+    [codigoMoneda] => 2
+    [tipoFacturaElec] => FAC
+    [tipoTasaCambio] => C
+    [montoTasaCambio] => 1
+    [fechaDoc] => 2025-01-01
+    [fechaVencimientoDoc] => 2025-01-01
+    [diasValidezDoc] => 90
+    [codigoRefCliente] => 272
+    [codigoFormaPago] => 0
+    [codigoCentroCosto] => DP10
+    [anotaciones] => [p]
+test comentario
+[/p]
+    [codigoVendedor] => 1
+    [codigoActividad] => 1
+    [subtotal] => 150
+    [descuento] => 0
+    [impuesto] => 0
+    [otrosCargos] => 0
+    [totalDocumento] => 150
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [numeroLinea] => 1
+                    [codigoBodega] => BPR
+                    [tipoCodigo] => externo
+                    [codigoItem] => 302
+                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                    [unidadPrincipal] => UND
+                    [cantidad] => 3
+                    [precio] => 50
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [totalLinea] => 150
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:41:32
+data2
+{"codigoRefExterna":"356","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2025-01-01","fechaVencimientoDoc":"2025-01-01","diasValidezDoc":90,"codigoRefCliente":"272","codigoFormaPago":0,"codigoCentroCosto":"DP10","anotaciones":"[p]\ntest comentario\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":150,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":150,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"302","descripci\u00f3n":"ITEM Prd Ucla NUEVA EMP 60","unidadPrincipal":"UND","cantidad":3,"precio":50,"descuento":0,"impuesto":0,"totalLinea":150}]}
+------------------------
+
+------------------------
+2025.03.12 17:41:32
+result actualización
+Array
+(
+    [statusCode] => 400
+    [message] => Fecha de transacción es menor a la fecha de inactividad o fecha de inicio de período
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:44:16
+datos
+Array
+(
+    [id] => 356
+    [venta] => Enero Catorce S.A. |60
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_356
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_356
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:44:16
+companyCode
+60
+------------------------
+
+------------------------
+2025.03.12 17:44:17
+resultNova order
+Array
+(
+    [statusCode] => 400
+    [message] => Actualmente no hay pedidos registrados o el número de transacción indicado es incorrecto.
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:44:20
+DEBUG
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 172
+                    [OWNER_ID] => 356
+                    [OWNER_TYPE] => D
+                    [PRODUCT_ID] => 304
+                    [PRODUCT_NAME] => ITEM Prd Ucla NUEVA EMP 60
+                    [ORIGINAL_PRODUCT_NAME] => ITEM Prd Ucla NUEVA EMP 60
+                    [PRODUCT_DESCRIPTION] => 
+                    [PRICE] => 50
+                    [PRICE_EXCLUSIVE] => 50
+                    [PRICE_NETTO] => 50
+                    [PRICE_BRUTTO] => 50
+                    [PRICE_ACCOUNT] => 26315.79
+                    [QUANTITY] => 3
+                    [DISCOUNT_TYPE_ID] => 2
+                    [DISCOUNT_RATE] => 0
+                    [DISCOUNT_SUM] => 0
+                    [TAX_RATE] => 
+                    [TAX_INCLUDED] => N
+                    [CUSTOMIZED] => Y
+                    [MEASURE_CODE] => 4
+                    [MEASURE_NAME] => UND
+                    [SORT] => 10
+                    [XML_ID] => sale_basket_104
+                    [TYPE] => 4
+                    [STORE_ID] => 8
+                    [RESERVE_ID] => 68
+                    [DATE_RESERVE_END] => 16/03/2025
+                    [RESERVE_QUANTITY] => 0
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1741815860.683
+            [finish] => 1741815860.714
+            [duration] => 0.030992984771729
+            [processing] => 0.012686967849731
+            [date_start] => 2025-03-13T00:44:20+03:00
+            [date_finish] => 2025-03-13T00:44:20+03:00
+            [operating_reset_at] => 1741816460
+            [operating] => 0
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:44:21
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:44:23
+data create
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 356
+            [codTipoTransaccion] => CLIPED0001
+            [codigoSucursal] => 2
+            [codigoMoneda] => 2
+            [tipoFacturaElec] => FAC
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2025-01-01
+            [fechaVencimientoDoc] => 2025-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 272
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP10
+            [anotaciones] => [p]
+test comentario
+[/p]
+            [codigoVendedor] => 1
+            [codigoActividad] => 1
+            [subtotal] => 150
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 150
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 302
+                            [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                            [unidadPrincipal] => UND
+                            [cantidad] => 3
+                            [precio] => 50
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 150
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:44:23
+data2 create
+[{"codigoRefExterna":"356","codTipoTransaccion":"CLIPED0001","codigoSucursal":2,"codigoMoneda":2,"tipoFacturaElec":"FAC","tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2025-01-01","fechaVencimientoDoc":"2025-01-01","diasValidezDoc":90,"codigoRefCliente":"272","codigoFormaPago":0,"codigoCentroCosto":"DP10","anotaciones":"[p]\ntest comentario\n[\/p]","codigoVendedor":1,"codigoActividad":1,"subtotal":150,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":150,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"302","descripci\u00f3n":"ITEM Prd Ucla NUEVA EMP 60","unidadPrincipal":"UND","cantidad":3,"precio":50,"descuento":0,"impuesto":0,"totalLinea":150}]}]
+------------------------
+
+------------------------
+2025.03.12 17:44:23
+resultCreateOrderNova
+Array
+(
+    [statusCode] => 200
+    [message] => Pedido creado exitosamente.
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 356
+                    [codTipoTransaccion] => CLIPED0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2025-01-01
+                    [fechaVencimientoDoc] => 2025-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 272
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => [p]
+test comentario
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 150
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 150
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 302
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 3
+                                    [precio] => 50
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 150
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:53:39
+resultBitrix
+Array
+(
+    [ID] => 358
+    [TITLE] => Negociación #358
+    [TYPE_ID] => 1
+    [STAGE_ID] => NEW
+    [PROBABILITY] => 
+    [CURRENCY_ID] => USD
+    [OPPORTUNITY] => 310.00
+    [IS_MANUAL_OPPORTUNITY] => N
+    [TAX_VALUE] => 0.00
+    [LEAD_ID] => 
+    [COMPANY_ID] => 0
+    [CONTACT_ID] => 272
+    [QUOTE_ID] => 
+    [BEGINDATE] => 2025-03-12T03:00:00+03:00
+    [CLOSEDATE] => 2025-03-20T03:00:00+03:00
+    [ASSIGNED_BY_ID] => 72
+    [CREATED_BY_ID] => 72
+    [MODIFY_BY_ID] => 72
+    [DATE_CREATE] => 2025-03-13T00:53:08+03:00
+    [DATE_MODIFY] => 2025-03-13T00:53:29+03:00
+    [OPENED] => Y
+    [CLOSED] => N
+    [COMMENTS] => [p]
+test
+[/p]
+    [ADDITIONAL_INFO] => 
+    [LOCATION_ID] => 
+    [CATEGORY_ID] => 0
+    [STAGE_SEMANTIC_ID] => P
+    [IS_NEW] => Y
+    [IS_RECURRING] => N
+    [IS_RETURN_CUSTOMER] => N
+    [IS_REPEATED_APPROACH] => N
+    [SOURCE_ID] => 
+    [SOURCE_DESCRIPTION] => 
+    [ORIGINATOR_ID] => 
+    [ORIGIN_ID] => 
+    [MOVED_BY_ID] => 72
+    [MOVED_TIME] => 2025-03-13T00:53:08+03:00
+    [LAST_ACTIVITY_TIME] => 2025-03-13T00:53:08+03:00
+    [UTM_SOURCE] => 
+    [UTM_MEDIUM] => 
+    [UTM_CAMPAIGN] => 
+    [UTM_CONTENT] => 
+    [UTM_TERM] => 
+    [LAST_ACTIVITY_BY] => 72
+    [UF_CRM_1727286069] => 4118
+    [UF_CRM_1727286167] => 4122
+    [UF_CRM_1727286256] => 4126
+    [UF_CRM_66F44E986A5B6] => 4192
+    [UF_CRM_66F44E987B164] => 
+    [UF_CRM_66F44E9883CC4] => 
+    [UF_CRM_66F44E9973A4C] => 
+    [UF_CRM_1727370430] => 
+    [UF_CRM_1727378312411] => 
+    [UF_CRM_1727456504] => 8244
+    [UF_CRM_1727456920] => 
+    [UF_CRM_1727456934] => 
+    [UF_CRM_1727457266] => 
+    [UF_CRM_1727457637] => 
+    [UF_CRM_1731680467] => 14360
+    [UF_CRM_1731684990] => 90
+    [UF_CRM_1732391716] => 
+    [UF_CRM_1732401917] => 16332
+    [UF_CRM_1732761650698] => 
+    [UF_CRM_1732761659323] => 
+    [UF_CRM_1739412902] => 99024
+    [UF_CRM_1739672508240] => 
+    [UF_CRM_1741195711143] => 
+    [UF_CRM_1741196487166] => 
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:53:39
+resultNova create 
+Array
+(
+    [statusCode] => 400
+    [message] => No hay cotizaciones registradas en este momento.
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:53:43
+resultParent
+302
+------------------------
+
+------------------------
+2025.03.12 17:53:43
+id producto
+302
+------------------------
+
+------------------------
+2025.03.12 17:53:46
+data
+Array
+(
+    [0] => Array
+        (
+            [codigoRefExterna] => 358
+            [codTipoTransaccion] => CLICOT0001
+            [codigoSucursal] => 2
+            [codigoActividad] => 1
+            [tipoFacturaElec] => FAC
+            [codigoMoneda] => 2
+            [tipoTasaCambio] => C
+            [montoTasaCambio] => 1
+            [fechaDoc] => 2025-01-01
+            [fechaVencimientoDoc] => 2025-01-01
+            [diasValidezDoc] => 90
+            [codigoRefCliente] => 272
+            [codigoFormaPago] => 0
+            [codigoCentroCosto] => DP10
+            [anotaciones] => [p]
+test
+[/p]
+            [codigoVendedor] => 1
+            [subtotal] => 310
+            [descuento] => 0
+            [impuesto] => 0
+            [otrosCargos] => 0
+            [totalDocumento] => 310
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [numeroLinea] => 1
+                            [codigoBodega] => BPR
+                            [tipoCodigo] => externo
+                            [codigoItem] => 302
+                            [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                            [unidadPrincipal] => UND
+                            [cantidad] => 31
+                            [precio] => 10
+                            [descuento] => 0
+                            [impuesto] => 0
+                            [totalLinea] => 310
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.03.12 17:53:46
+data2
+[{"codigoRefExterna":"358","codTipoTransaccion":"CLICOT0001","codigoSucursal":2,"codigoActividad":1,"tipoFacturaElec":"FAC","codigoMoneda":2,"tipoTasaCambio":"C","montoTasaCambio":1,"fechaDoc":"2025-01-01","fechaVencimientoDoc":"2025-01-01","diasValidezDoc":90,"codigoRefCliente":"272","codigoFormaPago":0,"codigoCentroCosto":"DP10","anotaciones":"[p]\ntest\n[\/p]","codigoVendedor":1,"subtotal":310,"descuento":0,"impuesto":0,"otrosCargos":0,"totalDocumento":310,"items":[{"numeroLinea":1,"codigoBodega":"BPR","tipoCodigo":"externo","codigoItem":"302","descripci\u00f3n":"ITEM Prd Ucla NUEVA EMP 60","unidadPrincipal":"UND","cantidad":31,"precio":10,"descuento":0,"impuesto":0,"totalLinea":310}]}]
+------------------------
+
+------------------------
+2025.03.12 17:53:46
+resultCreateQuoteNova
+Array
+(
+    [statusCode] => 200
+    [message] => Cotización creada exitosamente
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [codigoRefExterna] => 358
+                    [codTipoTransaccion] => CLICOT0001
+                    [codigoSucursal] => 2
+                    [codigoMoneda] => 2
+                    [tipoFacturaElec] => FAC
+                    [tipoTasaCambio] => C
+                    [montoTasaCambio] => 1
+                    [fechaDoc] => 2025-01-01
+                    [fechaVencimientoDoc] => 2025-01-01
+                    [diasValidezDoc] => 90
+                    [codigoRefCliente] => 272
+                    [codigoFormaPago] => 0
+                    [codigoCentroCosto] => DP10
+                    [anotaciones] => [p]
+test
+[/p]
+                    [codigoVendedor] => 1
+                    [codigoActividad] => 1
+                    [subtotal] => 310
+                    [descuento] => 0
+                    [impuesto] => 0
+                    [otrosCargos] => 0
+                    [totalDocumento] => 310
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [numeroLinea] => 1
+                                    [codigoBodega] => BPR
+                                    [tipoCodigo] => externo
+                                    [codigoItem] => 302
+                                    [descripción] => ITEM Prd Ucla NUEVA EMP 60
+                                    [unidadPrincipal] => UND
+                                    [cantidad] => 31
+                                    [precio] => 10
+                                    [descuento] => 0
+                                    [impuesto] => 0
+                                    [totalLinea] => 310
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2025.05.07 12:47:48
+datos
+Array
+(
+    [id] => 378
+    [venta] => Master Dental |58
+    [document_id] => Array
+        (
+            [0] => crm
+            [1] => CCrmDocumentDeal
+            [2] => DEAL_378
+        )
+
+    [auth] => Array
+        (
+            [domain] => grupocasazo.bitrix24.es
+            [client_endpoint] => https://grupocasazo.bitrix24.es/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => fd23cdd51a3aebb0cbf0109c2075ef7a
+        )
+
+    [document_id%5B0%5D] => crm
+    [document_id%5B1%5D] => CCrmDocumentDeal
+    [document_id%5B2%5D] => DEAL_378
+    [auth%5Bdomain%5D] => grupocasazo.bitrix24.es
+    [auth%5Bclient_endpoint%5D] => https://grupocasazo.bitrix24.es/rest/
+    [auth%5Bserver_endpoint%5D] => https://oauth.bitrix.info/rest/
+    [auth%5Bmember_id%5D] => fd23cdd51a3aebb0cbf0109c2075ef7a
+)
+
+------------------------
